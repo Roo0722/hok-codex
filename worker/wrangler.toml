@@ -1,0 +1,14 @@
+name = "hok-codex-worker"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+
+[triggers]
+crons = ["0 */12 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hok-codex-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+ENVIRONMENT = "production"
