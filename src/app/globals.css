@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --hok-gold: #C2924C;
+  --hok-gold-light: #E7C285;
+  --hok-bg: #0D0D0D;
+  --hok-card: #1A1A1A;
+  --hok-border: rgba(194, 146, 76, 0.1);
+}
+
+body {
+  background-color: var(--hok-bg);
+}
+
+.hok-card {
+  background-color: var(--hok-card);
+  border: 1px solid var(--hok-border);
+}
