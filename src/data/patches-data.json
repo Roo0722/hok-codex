@@ -1,1 +1,945 @@
-[]
+[
+  {
+    "patchId": "cmqno335r000pqy6mahyexu11",
+    "patchVersion": "S15",
+    "releaseDate": "2026-06-19",
+    "sourceUrls": [],
+    "rawSummary": "Server Update Announcement - 6/19",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "devara",
+        "entityName": "Devara",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Fixed stat issues, reduced skill cooldowns."
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782039127743"
+  },
+  {
+    "patchId": "cmqno335b0000qy6mo6mjs8ig",
+    "patchVersion": "S15",
+    "releaseDate": "2026-06-17",
+    "sourceUrls": [],
+    "rawSummary": "6/17 S15 The Grand Venture Version Update Announcement",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "sima-yi",
+        "entityName": "Sima Yi",
+        "fieldChanged": "Mechanic",
+        "oldValue": "",
+        "newValue": "Mechanics upgraded (Passive, Skill 1, Skill 2, Ultimate)"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "li-xin",
+        "entityName": "Li Xin",
+        "fieldChanged": "Mechanic",
+        "oldValue": "",
+        "newValue": "Mechanics upgraded (Passive, Skill 1, Skill 2, Skill 3, Ultimate)"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lian-po",
+        "entityName": "Lian Po",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "ming",
+        "entityName": "Ming",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "zhuangzi",
+        "entityName": "Zhuangzi",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "augran",
+        "entityName": "Augran",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Upgraded skill effects"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "pei",
+        "entityName": "Pei",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "nezha",
+        "entityName": "Nezha",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted skill effect"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "devara",
+        "entityName": "Devara",
+        "fieldChanged": "New",
+        "oldValue": "",
+        "newValue": "New hero \u2014 Thunderous Deep: Devara"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "florentino",
+        "entityName": "Florentino",
+        "fieldChanged": "New",
+        "oldValue": "",
+        "newValue": "New hero \u2014 Gentle Blade: Florentino"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lorion",
+        "entityName": "Lorion",
+        "fieldChanged": "New",
+        "oldValue": "",
+        "newValue": "New hero \u2014 Nightmare Incarnate: Lorion"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "annette",
+        "entityName": "Annette",
+        "fieldChanged": "New",
+        "oldValue": "",
+        "newValue": "New hero \u2014 Diviner: Annette"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782039127727"
+  },
+  {
+    "patchId": "cmqnmx64a07yyqy6v159efgzb",
+    "patchVersion": "S14",
+    "releaseDate": "2026-05-28",
+    "sourceUrls": [],
+    "rawSummary": "3 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "daji",
+        "entityName": "Daji",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted skill cooldown"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "dun",
+        "entityName": "Dun",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "han-xin",
+        "entityName": "Han Xin",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172026"
+  },
+  {
+    "patchId": "cmqnmx64c07z5qy6v8awcyqn3",
+    "patchVersion": "S14",
+    "releaseDate": "2026-05-14",
+    "sourceUrls": [],
+    "rawSummary": "7 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "dian-wei",
+        "entityName": "Dian Wei",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "flowborn-marksman",
+        "entityName": "Flowborn (Marksman)",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "flowborn-tank",
+        "entityName": "Flowborn (Tank)",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "gao",
+        "entityName": "Gao",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "nakoruru",
+        "entityName": "Nakoruru",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "nuwa",
+        "entityName": "Nuwa",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "ying",
+        "entityName": "Ying",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Skill Mechanics Upgraded"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172029"
+  },
+  {
+    "patchId": "cmqnmx64g07zkqy6vscn9tyz6",
+    "patchVersion": "S14",
+    "releaseDate": "2026-04-29",
+    "sourceUrls": [],
+    "rawSummary": "7 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "allain",
+        "entityName": "Allain",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "angela",
+        "entityName": "Angela",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "charlotte",
+        "entityName": "Charlotte",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage and recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "jing",
+        "entityName": "Jing",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lu-bu",
+        "entityName": "Lu Bu",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage and recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "mayene",
+        "entityName": "Mayene",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill recovery effect"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "zhang-fei",
+        "entityName": "Zhang Fei",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172032"
+  },
+  {
+    "patchId": "cmqnmx64k07zzqy6v2bmek5te",
+    "patchVersion": "S14",
+    "releaseDate": "2026-04-09",
+    "sourceUrls": [],
+    "rawSummary": "4 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "lady-sun",
+        "entityName": "Lady Sun",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "liu-shan",
+        "entityName": "Liu Shan",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill&#39;s shield"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "mi-yue",
+        "entityName": "Mi Yue",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "pei",
+        "entityName": "Pei",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted passive damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172036"
+  },
+  {
+    "patchId": "cmqnmx64m0808qy6v5uz563hy",
+    "patchVersion": "S14",
+    "releaseDate": "2026-03-26",
+    "sourceUrls": [],
+    "rawSummary": "6 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "chicha",
+        "entityName": "Chicha",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted Movement Speed bonus"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "dr-bian",
+        "entityName": "Dr Bian",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Reduced skill consumption"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "gao-changgong",
+        "entityName": "Gao Changgong",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lady-zhen",
+        "entityName": "Lady Zhen",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "marco-polo",
+        "entityName": "Marco Polo",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "zilong",
+        "entityName": "Zilong",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted skill effect"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172039"
+  },
+  {
+    "patchId": "cmqnmx64p080lqy6v7f25y6us",
+    "patchVersion": "S14",
+    "releaseDate": "2026-03-11",
+    "sourceUrls": [],
+    "rawSummary": "11 hero changes in S14",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "allain",
+        "entityName": "Allain",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "arthur",
+        "entityName": "Arthur",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased Health recovery and skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "biron",
+        "entityName": "Biron",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage and recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "dharma",
+        "entityName": "Dharma",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "dun",
+        "entityName": "Dun",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fatih",
+        "entityName": "Fatih",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased recovery capabilities and adjusted skill damage."
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fuzi",
+        "entityName": "Fuzi",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "gan-mo",
+        "entityName": "Gan &#38; Mo",
+        "fieldChanged": "Stat Nerfs",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "kaizer",
+        "entityName": "Kaizer",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill recovery and skill effect"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "luara",
+        "entityName": "Luara",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Reduced Mana consumption and adjusted skill damage."
+      },
+      {
+        "entityType": "hero",
+        "entityId": "nezha",
+        "entityName": "Nezha",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Skill Mechanics Upgraded"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172042"
+  },
+  {
+    "patchId": "cmqnmx64u0818qy6vq827h7lp",
+    "patchVersion": "S13",
+    "releaseDate": "2026-02-05",
+    "sourceUrls": [],
+    "rawSummary": "6 hero changes in S13",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "bai-qi",
+        "entityName": "Bai Qi",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage and recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "chicha",
+        "entityName": "Chicha",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Attack Speed"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "diaochan",
+        "entityName": "Diaochan",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage and recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "hou-yi",
+        "entityName": "Hou Yi",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "liang",
+        "entityName": "Liang",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted skill damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "liu-bang",
+        "entityName": "Liu Bang",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased skill damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172046"
+  },
+  {
+    "patchId": "cmqnmx64x081lqy6vnrgu0l1z",
+    "patchVersion": "S13",
+    "releaseDate": "2026-01-22",
+    "sourceUrls": [],
+    "rawSummary": "8 hero changes in S13",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "chano",
+        "entityName": "Chano",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "consort-yu",
+        "entityName": "Consort Yu",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fang",
+        "entityName": "Fang",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "flowborn-marksman",
+        "entityName": "Flowborn (Marksman)",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "gao",
+        "entityName": "Gao",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "guan-yu",
+        "entityName": "Guan Yu",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "heino",
+        "entityName": "Heino",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "wuyan",
+        "entityName": "Wuyan",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172050"
+  },
+  {
+    "patchId": "cmqnmx6510822qy6vxhhk878a",
+    "patchVersion": "S13",
+    "releaseDate": "2026-01-08",
+    "sourceUrls": [],
+    "rawSummary": "7 hero changes in S13",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "allain",
+        "entityName": "Allain",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "aoyin",
+        "entityName": "Ao'yin",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "ata",
+        "entityName": "Ata",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Upgraded Skill Effects"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "dolia",
+        "entityName": "Dolia",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fatih",
+        "entityName": "Fatih",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fuzi",
+        "entityName": "Fuzi",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "yang-jian",
+        "entityName": "Yang Jian",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Effect and Cooldown"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172054"
+  },
+  {
+    "patchId": "cmqnmx655082hqy6vpwty5v4s",
+    "patchVersion": "S13",
+    "releaseDate": "2025-12-16",
+    "sourceUrls": [],
+    "rawSummary": "22 hero changes in S13",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "agudo",
+        "entityName": "Agudo",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "aoyin",
+        "entityName": "Ao'yin",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "arli",
+        "entityName": "Arli",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "athena",
+        "entityName": "Athena",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Divine Form Upgrade"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "athena",
+        "entityName": "Athena",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Divine Form Upgrade"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "athena",
+        "entityName": "Athena",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Divine Form Upgrade"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "athena",
+        "entityName": "Athena",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Divine Form Upgrade"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "athena",
+        "entityName": "Athena",
+        "fieldChanged": "Mechanics Upgrade",
+        "oldValue": "",
+        "newValue": "Divine Form Upgrade"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "chano",
+        "entityName": "Chano",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "consort-yu",
+        "entityName": "Consort Yu",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "di-renjie",
+        "entityName": "Di Renjie",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "erin",
+        "entityName": "Erin",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "fang",
+        "entityName": "Fang",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "flowborn-marksman",
+        "entityName": "Flowborn (Marksman)",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "garo",
+        "entityName": "Garo",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "hou-yi",
+        "entityName": "Hou Yi",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "huang-zhong",
+        "entityName": "Huang Zhong",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lady-sun",
+        "entityName": "Lady Sun",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "lapulapu",
+        "entityName": "Lapulapu",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "marco-polo",
+        "entityName": "Marco Polo",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "meng-ya",
+        "entityName": "Meng Ya",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "shouyue",
+        "entityName": "Shouyue",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172057"
+  },
+  {
+    "patchId": "cmqnmx65d083qqy6vmqbvci31",
+    "patchVersion": "S12",
+    "releaseDate": "2025-11-27",
+    "sourceUrls": [],
+    "rawSummary": "6 hero changes in S12",
+    "structuredChanges": [
+      {
+        "entityType": "hero",
+        "entityId": "angela",
+        "entityName": "Angela",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Reduced Skill Cooldown"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "charlotte",
+        "entityName": "Charlotte",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "donghuang",
+        "entityName": "Donghuang",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Recovery"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "musashi",
+        "entityName": "Musashi",
+        "fieldChanged": "Stat Buffs",
+        "oldValue": "",
+        "newValue": "Increased Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "sima-yi",
+        "entityName": "Sima Yi",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      },
+      {
+        "entityType": "hero",
+        "entityId": "ziya",
+        "entityName": "Ziya",
+        "fieldChanged": "Stat Changes",
+        "oldValue": "",
+        "newValue": "Adjusted Skill Damage"
+      }
+    ],
+    "status": "published",
+    "discoveredAt": "1782037172066"
+  }
+]

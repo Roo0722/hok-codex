@@ -1,1 +1,3034 @@
-[]
+[
+  {
+    "itemId": "1351",
+    "name": "Amble - Winter",
+    "price": 3190,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Group CC",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1351",
+        "name": "Frigid Charge"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171024"
+  },
+  {
+    "itemId": "1227",
+    "name": "Ardent Dominion",
+    "price": 2040,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Shield at low Health",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1227",
+        "name": "Blood Clan's Grimoire"
+      },
+      {
+        "id": "1224",
+        "name": "Stone of Sorcery"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171026"
+  },
+  {
+    "itemId": "1237",
+    "name": "Augur's Word",
+    "price": 2150,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Offense & defense",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1237",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171027"
+  },
+  {
+    "itemId": "1137",
+    "name": "Axe of Torment",
+    "price": 2090,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Anti-squishy",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1137",
+        "name": "Meteor"
+      },
+      {
+        "id": "1122",
+        "name": "Sunglow Striker"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171029"
+  },
+  {
+    "itemId": "1321",
+    "name": "Belt of Might",
+    "price": 850,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "HP +900",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1321",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1237",
+        "name": "Augur's Word"
+      },
+      {
+        "id": "1328",
+        "name": "Blood Rage"
+      },
+      {
+        "id": "1332",
+        "name": "Overlord's Platemail"
+      },
+      {
+        "id": "1334",
+        "name": "Eye of the Phoenix"
+      },
+      {
+        "id": "1337",
+        "name": "Sage's Sanctuary"
+      },
+      {
+        "id": "1338",
+        "name": "Cuirass of Savagery"
+      },
+      {
+        "id": "1353",
+        "name": "Dawnlight"
+      },
+      {
+        "id": "1534",
+        "name": "Dragon's Rage"
+      },
+      {
+        "id": "1721",
+        "name": "Crimson Shadow - Redemption"
+      },
+      {
+        "id": "1723",
+        "name": "Crimson Shadow - Howl"
+      },
+      {
+        "id": "1724",
+        "name": "Guardian - Redemption"
+      },
+      {
+        "id": "1725",
+        "name": "Guardian - Starspring"
+      },
+      {
+        "id": "1737",
+        "name": "Crimson Shadow - Radiance"
+      },
+      {
+        "id": "1747",
+        "name": "Crimson Shadow - Starspring"
+      },
+      {
+        "id": "1754",
+        "name": "Guardian - Radiance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171031"
+  },
+  {
+    "itemId": "1331",
+    "name": "Blazing Cape",
+    "price": 2040,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Burns nearby enemies",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1331",
+        "name": "Protector's Cuirass"
+      },
+      {
+        "id": "1323",
+        "name": "Clandestine Cape"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171037"
+  },
+  {
+    "itemId": "1222",
+    "name": "Blood Clan's Grimoire",
+    "price": 800,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "MATK +60, Magical Lifesteal +12%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1222",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "1217",
+        "name": "Mystic Page"
+      },
+      {
+        "id": "1227",
+        "name": "Ardent Dominion"
+      },
+      {
+        "id": "1239",
+        "name": "Splendor"
+      },
+      {
+        "id": "1240",
+        "name": "Insatiable Tome"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171039"
+  },
+  {
+    "itemId": "1328",
+    "name": "Blood Rage",
+    "price": 2180,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Grants temporary shield",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1328",
+        "name": "Storm Sword"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      },
+      {
+        "id": "1350",
+        "name": "Ravage - Phantom"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171041"
+  },
+  {
+    "itemId": "1158",
+    "name": "Bloodsoul",
+    "price": 800,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "PATK +35,\u00a0Physical Lifesteal +12%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1158",
+        "name": "Vampiric Scythe"
+      },
+      {
+        "id": "1111",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1126",
+        "name": "Doomsday"
+      },
+      {
+        "id": "1132",
+        "name": "Bloodweeper"
+      },
+      {
+        "id": "11210",
+        "name": "Mortal Punisher"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171044"
+  },
+  {
+    "itemId": "1132",
+    "name": "Bloodweeper",
+    "price": 2000,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Physical Lifesteal",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1132",
+        "name": "Bloodsoul"
+      },
+      {
+        "id": "1122",
+        "name": "Sunglow Striker"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171046"
+  },
+  {
+    "itemId": "1426",
+    "name": "Boots of Deftness",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Extra Movement Speed",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1426",
+        "name": "Lightfoot Shoes"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171048"
+  },
+  {
+    "itemId": "1425",
+    "name": "Boots of Dexterity",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Boosts ASPD",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1425",
+        "name": "Lightfoot Shoes"
+      },
+      {
+        "id": "1112",
+        "name": "Dagger"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171049"
+  },
+  {
+    "itemId": "1421",
+    "name": "Boots of Fortitude",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Reduces physical damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1421",
+        "name": "Lightfoot Shoes"
+      },
+      {
+        "id": "1312",
+        "name": "Cloth Jerkin"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171052"
+  },
+  {
+    "itemId": "1422",
+    "name": "Boots of Resistance",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Shortens CC",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1422",
+        "name": "Lightfoot Shoes"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171053"
+  },
+  {
+    "itemId": "1424",
+    "name": "Boots of the Arcane",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Magical Pierce",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1424",
+        "name": "Lightfoot Shoes"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171054"
+  },
+  {
+    "itemId": "1423",
+    "name": "Boots of Tranquility",
+    "price": 700,
+    "tier": 2,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Reduces Skill CD",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1423",
+        "name": "Lightfoot Shoes"
+      },
+      {
+        "id": "1218",
+        "name": "Primordial Crystal"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171056"
+  },
+  {
+    "itemId": "1244",
+    "name": "Breakthrough Robe",
+    "price": 2120,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Converts Health into M. Pierce",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1244",
+        "name": "Nebulon Wood"
+      },
+      {
+        "id": "1243",
+        "name": "Nebulon Wood"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171057"
+  },
+  {
+    "itemId": "1323",
+    "name": "Clandestine Cape",
+    "price": 800,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "MDEF +150, HP +450",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1323",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1125",
+        "name": "Demonsbane"
+      },
+      {
+        "id": "1331",
+        "name": "Blazing Cape"
+      },
+      {
+        "id": "1334",
+        "name": "Eye of the Phoenix"
+      },
+      {
+        "id": "1335",
+        "name": "Succubus Cloak"
+      },
+      {
+        "id": "1347",
+        "name": "Longnight Guardian"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171059"
+  },
+  {
+    "itemId": "1312",
+    "name": "Cloth Jerkin",
+    "price": 275,
+    "tier": 1,
+    "category": "Defense",
+    "stats": {},
+    "passive": "PDEF +100",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1312",
+        "name": "Frosthold Targe"
+      },
+      {
+        "id": "1325",
+        "name": "Protector's Cuirass"
+      },
+      {
+        "id": "1345",
+        "name": "Nettle Gauntlet"
+      },
+      {
+        "id": "1421",
+        "name": "Boots of Fortitude"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171062"
+  },
+  {
+    "itemId": "1154",
+    "name": "Cloud Piercer",
+    "price": 800,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Crit Rate +12%, ASPD +15%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1154",
+        "name": "Dagger"
+      },
+      {
+        "id": "1113",
+        "name": "Pugilist's Gauntlet"
+      },
+      {
+        "id": "1141",
+        "name": "Sunchaser"
+      },
+      {
+        "id": "1155",
+        "name": "Daybreaker's Virtue"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171064"
+  },
+  {
+    "itemId": "1711",
+    "name": "Crimson Shadow",
+    "price": 850,
+    "tier": 2,
+    "category": "Roam",
+    "stats": {},
+    "passive": "DPS aura",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1711",
+        "name": "Knowledge Gem"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1721",
+        "name": "Crimson Shadow - Redemption"
+      },
+      {
+        "id": "1723",
+        "name": "Crimson Shadow - Howl"
+      },
+      {
+        "id": "1737",
+        "name": "Crimson Shadow - Radiance"
+      },
+      {
+        "id": "1747",
+        "name": "Crimson Shadow - Starspring"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171066"
+  },
+  {
+    "itemId": "1723",
+    "name": "Crimson Shadow - Howl",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Group speedup",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1723",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171069"
+  },
+  {
+    "itemId": "1737",
+    "name": "Crimson Shadow - Radiance",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Area damage & vision",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1737",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171071"
+  },
+  {
+    "itemId": "1721",
+    "name": "Crimson Shadow - Redemption",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Group shield",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1721",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171073"
+  },
+  {
+    "itemId": "1747",
+    "name": "Crimson Shadow - Starspring",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Restores teammate Health & Mana",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1747",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171075"
+  },
+  {
+    "itemId": "1338",
+    "name": "Cuirass of Savagery",
+    "price": 2050,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Offense & defense",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1338",
+        "name": "Nettle Gauntlet"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171077"
+  },
+  {
+    "itemId": "1317",
+    "name": "Cuirass of Swiftness",
+    "price": 800,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "HP +450, CDR +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1317",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1218",
+        "name": "Primordial Crystal"
+      },
+      {
+        "id": "1226",
+        "name": "Holy Grail"
+      },
+      {
+        "id": "1234",
+        "name": "Frozen Breath"
+      },
+      {
+        "id": "1235",
+        "name": "Mask of Agony"
+      },
+      {
+        "id": "1336",
+        "name": "Glacial Buckler"
+      },
+      {
+        "id": "1341",
+        "name": "Frigid Charge"
+      },
+      {
+        "id": "1532",
+        "name": "Giant's Grip"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171078"
+  },
+  {
+    "itemId": "1112",
+    "name": "Dagger",
+    "price": 300,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Attack Speed",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1112",
+        "name": "Twinblades of Destruction"
+      },
+      {
+        "id": "1129",
+        "name": "Swiftstrike Lance"
+      },
+      {
+        "id": "1154",
+        "name": "Cloud Piercer"
+      },
+      {
+        "id": "1425",
+        "name": "Boots of Dexterity"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171081"
+  },
+  {
+    "itemId": "1353",
+    "name": "Dawnlight",
+    "price": 2040,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Shields on dealing damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1353",
+        "name": "Frosthold Targe"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171084"
+  },
+  {
+    "itemId": "1155",
+    "name": "Daybreaker's Virtue",
+    "price": 2570,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Great for marksmen",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1155",
+        "name": "Cloud Piercer"
+      },
+      {
+        "id": "1129",
+        "name": "Swiftstrike Lance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171085"
+  },
+  {
+    "itemId": "1128",
+    "name": "Deepfrost Siege",
+    "price": 2040,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Slows on hit",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1128",
+        "name": "Sunglow Striker"
+      },
+      {
+        "id": "1129",
+        "name": "Swiftstrike Lance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171087"
+  },
+  {
+    "itemId": "1125",
+    "name": "Demonsbane",
+    "price": 2060,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Boosts MDEF",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1125",
+        "name": "Storm Sword"
+      },
+      {
+        "id": "1323",
+        "name": "Clandestine Cape"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171089"
+  },
+  {
+    "itemId": "1127",
+    "name": "Destiny",
+    "price": 2060,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Negates fatal damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1127",
+        "name": "Storm Sword"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171091"
+  },
+  {
+    "itemId": "1126",
+    "name": "Doomsday",
+    "price": 2100,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Boosts BA damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1126",
+        "name": "Bloodsoul"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171093"
+  },
+  {
+    "itemId": "1534",
+    "name": "Dragon's Rage",
+    "price": 2040,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Boosts BA damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1534",
+        "name": "Belt of Might"
+      },
+      {
+        "id": "1325",
+        "name": "Protector's Cuirass"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171094"
+  },
+  {
+    "itemId": "1242",
+    "name": "Enigma - Moon Goddess",
+    "price": 3340,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Temp. invincibility",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1242",
+        "name": "Splendor"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171095"
+  },
+  {
+    "itemId": "1133",
+    "name": "Eternity Blade",
+    "price": 2110,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "High crit damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1133",
+        "name": "Storm Sword"
+      },
+      {
+        "id": "1116",
+        "name": "Thunderclap Brand"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171096"
+  },
+  {
+    "itemId": "1334",
+    "name": "Eye of the Phoenix",
+    "price": 2020,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Boosts Health regen",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1334",
+        "name": "Belt of Might"
+      },
+      {
+        "id": "1323",
+        "name": "Clandestine Cape"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171098"
+  },
+  {
+    "itemId": "1341",
+    "name": "Frigid Charge",
+    "price": 2030,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Group CC",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1341",
+        "name": "Protector's Cuirass"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      },
+      {
+        "id": "1351",
+        "name": "Amble - Winter"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171100"
+  },
+  {
+    "itemId": "1324",
+    "name": "Frosthold Targe",
+    "price": 750,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "PDEF +150, CDR +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1324",
+        "name": "Cloth Jerkin"
+      },
+      {
+        "id": "1218",
+        "name": "Primordial Crystal"
+      },
+      {
+        "id": "1336",
+        "name": "Glacial Buckler"
+      },
+      {
+        "id": "1353",
+        "name": "Dawnlight"
+      },
+      {
+        "id": "13310",
+        "name": "Frostscar's Embrace"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171102"
+  },
+  {
+    "itemId": "13310",
+    "name": "Frostscar's Embrace",
+    "price": 2060,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Enhanced BAs slow",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "13310",
+        "name": "Nettle Gauntlet"
+      },
+      {
+        "id": "1324",
+        "name": "Frosthold Targe"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171104"
+  },
+  {
+    "itemId": "1234",
+    "name": "Frozen Breath",
+    "price": 2100,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Slows on hit",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1234",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171106"
+  },
+  {
+    "itemId": "1532",
+    "name": "Giant's Grip",
+    "price": 2160,
+    "tier": 3,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost Health",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1532",
+        "name": "Patrol Axe"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171108"
+  },
+  {
+    "itemId": "1336",
+    "name": "Glacial Buckler",
+    "price": 2040,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Group damage & slow",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1336",
+        "name": "Cuirass of Swiftness"
+      },
+      {
+        "id": "1324",
+        "name": "Frosthold Targe"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171109"
+  },
+  {
+    "itemId": "1728",
+    "name": "Golden Blade",
+    "price": 2070,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Keeps enhancing BA",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1728",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1123",
+        "name": "Twinblades of Destruction"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171111"
+  },
+  {
+    "itemId": "1221",
+    "name": "Grand Staff",
+    "price": 820,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Magical Attack",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1221",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "1211",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "1231",
+        "name": "Void Staff"
+      },
+      {
+        "id": "1232",
+        "name": "Savant's Wrath"
+      },
+      {
+        "id": "1233",
+        "name": "Scepter of Reverberation"
+      },
+      {
+        "id": "1234",
+        "name": "Frozen Breath"
+      },
+      {
+        "id": "1237",
+        "name": "Augur's Word"
+      },
+      {
+        "id": "1238",
+        "name": "Sage's Tome"
+      },
+      {
+        "id": "1728",
+        "name": "Golden Blade"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171112"
+  },
+  {
+    "itemId": "1714",
+    "name": "Guardian",
+    "price": 850,
+    "tier": 2,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Survivability aura",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1714",
+        "name": "Knowledge Gem"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1724",
+        "name": "Guardian - Redemption"
+      },
+      {
+        "id": "1725",
+        "name": "Guardian - Starspring"
+      },
+      {
+        "id": "1754",
+        "name": "Guardian - Radiance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171116"
+  },
+  {
+    "itemId": "1754",
+    "name": "Guardian - Radiance",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Area damage & vision",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1754",
+        "name": "Guardian"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171118"
+  },
+  {
+    "itemId": "1724",
+    "name": "Guardian - Redemption",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Group shield",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1724",
+        "name": "Guardian"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171120"
+  },
+  {
+    "itemId": "1725",
+    "name": "Guardian - Starspring",
+    "price": 2080,
+    "tier": 3,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Restores teammate Health & Mana",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1725",
+        "name": "Guardian"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171121"
+  },
+  {
+    "itemId": "1521",
+    "name": "Guerrilla Machete",
+    "price": 700,
+    "tier": 2,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost MATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1521",
+        "name": "Hunting Knife"
+      },
+      {
+        "id": "1531",
+        "name": "Runeblade"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171124"
+  },
+  {
+    "itemId": "1156",
+    "name": "Haste - Sunpool",
+    "price": 3320,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Boosts attack range",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1156",
+        "name": "Sunchaser"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171125"
+  },
+  {
+    "itemId": "1226",
+    "name": "Holy Grail",
+    "price": 2020,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Rapid Health & Mana Regen",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1226",
+        "name": "Sage's Codex"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171127"
+  },
+  {
+    "itemId": "1511",
+    "name": "Hunting Knife",
+    "price": 250,
+    "tier": 1,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Speeds up jungling",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1511",
+        "name": "Guerrilla Machete"
+      },
+      {
+        "id": "1522",
+        "name": "Patrol Axe"
+      },
+      {
+        "id": "1523",
+        "name": "Relentless Blade"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171128"
+  },
+  {
+    "itemId": "1157",
+    "name": "Immovable - Sky Dome",
+    "price": 3280,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Temp. damage reduction",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1157",
+        "name": "Pure Sky"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171130"
+  },
+  {
+    "itemId": "1240",
+    "name": "Insatiable Tome",
+    "price": 2060,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Magical Lifesteal",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1240",
+        "name": "Blood Clan's Grimoire"
+      },
+      {
+        "id": "1222",
+        "name": "Blood Clan's Grimoire"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171131"
+  },
+  {
+    "itemId": "1111",
+    "name": "Iron Sword",
+    "price": 275,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "PATK +20",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1111",
+        "name": "Thunderclap Brand"
+      },
+      {
+        "id": "1121",
+        "name": "Storm Sword"
+      },
+      {
+        "id": "1122",
+        "name": "Sunglow Striker"
+      },
+      {
+        "id": "1124",
+        "name": "Meteor"
+      },
+      {
+        "id": "1129",
+        "name": "Swiftstrike Lance"
+      },
+      {
+        "id": "1158",
+        "name": "Bloodsoul"
+      },
+      {
+        "id": "1345",
+        "name": "Nettle Gauntlet"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171133"
+  },
+  {
+    "itemId": "1701",
+    "name": "Knowledge Gem",
+    "price": 300,
+    "tier": 1,
+    "category": "Roam",
+    "stats": {},
+    "passive": "Extra Gold & EXP",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1701",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1714",
+        "name": "Guardian"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171136"
+  },
+  {
+    "itemId": "1411",
+    "name": "Lightfoot Shoes",
+    "price": 250,
+    "tier": 1,
+    "category": "Movement",
+    "stats": {},
+    "passive": "Movement Speed",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1411",
+        "name": "Boots of Fortitude"
+      },
+      {
+        "id": "1422",
+        "name": "Boots of Resistance"
+      },
+      {
+        "id": "1423",
+        "name": "Boots of Tranquility"
+      },
+      {
+        "id": "1424",
+        "name": "Boots of the Arcane"
+      },
+      {
+        "id": "1425",
+        "name": "Boots of Dexterity"
+      },
+      {
+        "id": "1426",
+        "name": "Boots of Deftness"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171137"
+  },
+  {
+    "itemId": "1347",
+    "name": "Longnight Guardian",
+    "price": 2020,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Resists burst damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1347",
+        "name": "Clandestine Cape"
+      },
+      {
+        "id": "13211",
+        "name": "Mirror of Radiance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171140"
+  },
+  {
+    "itemId": "1235",
+    "name": "Mask of Agony",
+    "price": 2080,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Boosts skill damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1235",
+        "name": "Nebulon Wood"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171142"
+  },
+  {
+    "itemId": "1134",
+    "name": "Master Sword",
+    "price": 2100,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Enhances BA",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1134",
+        "name": "Thunderclap Brand"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171143"
+  },
+  {
+    "itemId": "1124",
+    "name": "Meteor",
+    "price": 760,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "PATK +35\nCDR +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1124",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1218",
+        "name": "Primordial Crystal"
+      },
+      {
+        "id": "1137",
+        "name": "Axe of Torment"
+      },
+      {
+        "id": "1533",
+        "name": "Rapacious Bite"
+      },
+      {
+        "id": "11311",
+        "name": "Pure Sky"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171144"
+  },
+  {
+    "itemId": "13211",
+    "name": "Mirror of Radiance",
+    "price": 800,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "HP +450, MSPD +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "13211",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "11110",
+        "name": "Plume of Enchantment"
+      },
+      {
+        "id": "1347",
+        "name": "Longnight Guardian"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171147"
+  },
+  {
+    "itemId": "11210",
+    "name": "Mortal Punisher",
+    "price": 2080,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Lowers Health regen",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "11210",
+        "name": "Bloodsoul"
+      },
+      {
+        "id": "1129",
+        "name": "Swiftstrike Lance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171149"
+  },
+  {
+    "itemId": "1217",
+    "name": "Mystic Page",
+    "price": 300,
+    "tier": 1,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Magical Lifesteal +8%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1217",
+        "name": "Blood Clan's Grimoire"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171150"
+  },
+  {
+    "itemId": "1243",
+    "name": "Nebulon Wood",
+    "price": 840,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "MATK +60, HP +450",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1243",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1231",
+        "name": "Void Staff"
+      },
+      {
+        "id": "1235",
+        "name": "Mask of Agony"
+      },
+      {
+        "id": "1236",
+        "name": "Staves of Sorcery"
+      },
+      {
+        "id": "1244",
+        "name": "Breakthrough Robe"
+      },
+      {
+        "id": "1727",
+        "name": "Twilight Stream"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171151"
+  },
+  {
+    "itemId": "1345",
+    "name": "Nettle Gauntlet",
+    "price": 750,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Offense & defense",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1345",
+        "name": "Cloth Jerkin"
+      },
+      {
+        "id": "1111",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1327",
+        "name": "Spikemail"
+      },
+      {
+        "id": "1338",
+        "name": "Cuirass of Savagery"
+      },
+      {
+        "id": "11311",
+        "name": "Pure Sky"
+      },
+      {
+        "id": "13310",
+        "name": "Frostscar's Embrace"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171156"
+  },
+  {
+    "itemId": "1333",
+    "name": "Ominous Premonition",
+    "price": 2020,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Slows attackers",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1333",
+        "name": "Protector's Cuirass"
+      },
+      {
+        "id": "1325",
+        "name": "Protector's Cuirass"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171159"
+  },
+  {
+    "itemId": "1138",
+    "name": "Overlord's Might",
+    "price": 2540,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "High-damage attack",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1138",
+        "name": "Storm Sword"
+      },
+      {
+        "id": "1121",
+        "name": "Storm Sword"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171160"
+  },
+  {
+    "itemId": "1332",
+    "name": "Overlord's Platemail",
+    "price": 2450,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Extra Health",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1332",
+        "name": "Belt of Might"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171162"
+  },
+  {
+    "itemId": "1522",
+    "name": "Patrol Axe",
+    "price": 700,
+    "tier": 2,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost Health",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1522",
+        "name": "Hunting Knife"
+      },
+      {
+        "id": "1532",
+        "name": "Giant's Grip"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171163"
+  },
+  {
+    "itemId": "11110",
+    "name": "Plume of Enchantment",
+    "price": 300,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "MSPD +5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "11110",
+        "name": "Twinblades of Destruction"
+      },
+      {
+        "id": "1224",
+        "name": "Stone of Sorcery"
+      },
+      {
+        "id": "13211",
+        "name": "Mirror of Radiance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171165"
+  },
+  {
+    "itemId": "1218",
+    "name": "Primordial Crystal",
+    "price": 300,
+    "tier": 1,
+    "category": "Magic",
+    "stats": {},
+    "passive": "CDR +5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1218",
+        "name": "Meteor"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      },
+      {
+        "id": "1324",
+        "name": "Frosthold Targe"
+      },
+      {
+        "id": "1423",
+        "name": "Boots of Tranquility"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171167"
+  },
+  {
+    "itemId": "1325",
+    "name": "Protector's Cuirass",
+    "price": 800,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "PDEF +150, HP +450",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1325",
+        "name": "Cloth Jerkin"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1327",
+        "name": "Spikemail"
+      },
+      {
+        "id": "1331",
+        "name": "Blazing Cape"
+      },
+      {
+        "id": "1333",
+        "name": "Ominous Premonition"
+      },
+      {
+        "id": "1341",
+        "name": "Frigid Charge"
+      },
+      {
+        "id": "1534",
+        "name": "Dragon's Rage"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171170"
+  },
+  {
+    "itemId": "1113",
+    "name": "Pugilist's Gauntlet",
+    "price": 300,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Critical Rate",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1113",
+        "name": "Thunderclap Brand"
+      },
+      {
+        "id": "1154",
+        "name": "Cloud Piercer"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171173"
+  },
+  {
+    "itemId": "11311",
+    "name": "Pure Sky",
+    "price": 2140,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Temp. damage reduction",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "11311",
+        "name": "Meteor"
+      },
+      {
+        "id": "1345",
+        "name": "Nettle Gauntlet"
+      },
+      {
+        "id": "1157",
+        "name": "Immovable - Sky Dome"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171175"
+  },
+  {
+    "itemId": "1533",
+    "name": "Rapacious Bite",
+    "price": 2160,
+    "tier": 3,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost PATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1533",
+        "name": "Relentless Blade"
+      },
+      {
+        "id": "1124",
+        "name": "Meteor"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171177"
+  },
+  {
+    "itemId": "1350",
+    "name": "Ravage - Phantom",
+    "price": 3350,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Temp. shield & PATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1350",
+        "name": "Blood Rage"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171179"
+  },
+  {
+    "itemId": "1523",
+    "name": "Relentless Blade",
+    "price": 700,
+    "tier": 2,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost PATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1523",
+        "name": "Hunting Knife"
+      },
+      {
+        "id": "1533",
+        "name": "Rapacious Bite"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171180"
+  },
+  {
+    "itemId": "1311",
+    "name": "Resilient Agate",
+    "price": 300,
+    "tier": 1,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Health",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1311",
+        "name": "Sunglow Striker"
+      },
+      {
+        "id": "1243",
+        "name": "Nebulon Wood"
+      },
+      {
+        "id": "1317",
+        "name": "Cuirass of Swiftness"
+      },
+      {
+        "id": "1321",
+        "name": "Belt of Might"
+      },
+      {
+        "id": "1323",
+        "name": "Clandestine Cape"
+      },
+      {
+        "id": "1325",
+        "name": "Protector's Cuirass"
+      },
+      {
+        "id": "1426",
+        "name": "Boots of Deftness"
+      },
+      {
+        "id": "1711",
+        "name": "Crimson Shadow"
+      },
+      {
+        "id": "1714",
+        "name": "Guardian"
+      },
+      {
+        "id": "13211",
+        "name": "Mirror of Radiance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171181"
+  },
+  {
+    "itemId": "1531",
+    "name": "Runeblade",
+    "price": 2160,
+    "tier": 3,
+    "category": "Jungle",
+    "stats": {},
+    "passive": "Monster kills boost MATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1531",
+        "name": "Guerrilla Machete"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171186"
+  },
+  {
+    "itemId": "1214",
+    "name": "Sage's Codex",
+    "price": 800,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "MATK +60, CDR +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1214",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "1218",
+        "name": "Primordial Crystal"
+      },
+      {
+        "id": "1226",
+        "name": "Holy Grail"
+      },
+      {
+        "id": "1238",
+        "name": "Sage's Tome"
+      },
+      {
+        "id": "1239",
+        "name": "Splendor"
+      },
+      {
+        "id": "1531",
+        "name": "Runeblade"
+      },
+      {
+        "id": "1727",
+        "name": "Twilight Stream"
+      },
+      {
+        "id": "12211",
+        "name": "Venomous Staff"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171188"
+  },
+  {
+    "itemId": "1337",
+    "name": "Sage's Sanctuary",
+    "price": 2280,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Resurrect on the spot",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1337",
+        "name": "Belt of Might"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171192"
+  },
+  {
+    "itemId": "1238",
+    "name": "Sage's Tome",
+    "price": 2610,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Great for mages",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1238",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171193"
+  },
+  {
+    "itemId": "1232",
+    "name": "Savant's Wrath",
+    "price": 2140,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Greatly boosts MATK",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1232",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1221",
+        "name": "Grand Staff"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171195"
+  },
+  {
+    "itemId": "1233",
+    "name": "Scepter of Reverberation",
+    "price": 2100,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Skill hits trigger explosions",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1233",
+        "name": "Stone of Sorcery"
+      },
+      {
+        "id": "1221",
+        "name": "Grand Staff"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171197"
+  },
+  {
+    "itemId": "1136",
+    "name": "Shadow Ripper",
+    "price": 2040,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Crits boost ASPD",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1136",
+        "name": "Thunderclap Brand"
+      },
+      {
+        "id": "1123",
+        "name": "Twinblades of Destruction"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171198"
+  },
+  {
+    "itemId": "1135",
+    "name": "Sparkforged Dagger",
+    "price": 2040,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Chain lightning BA",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1135",
+        "name": "Swiftstrike Lance"
+      },
+      {
+        "id": "1123",
+        "name": "Twinblades of Destruction"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171200"
+  },
+  {
+    "itemId": "1211",
+    "name": "Spell Tome",
+    "price": 275,
+    "tier": 1,
+    "category": "Magic",
+    "stats": {},
+    "passive": "MATK +35",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1211",
+        "name": "Sage's Codex"
+      },
+      {
+        "id": "1221",
+        "name": "Grand Staff"
+      },
+      {
+        "id": "1222",
+        "name": "Blood Clan's Grimoire"
+      },
+      {
+        "id": "1224",
+        "name": "Stone of Sorcery"
+      },
+      {
+        "id": "1243",
+        "name": "Nebulon Wood"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171201"
+  },
+  {
+    "itemId": "1327",
+    "name": "Spikemail",
+    "price": 2020,
+    "tier": 2,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Reflects damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1327",
+        "name": "Nettle Gauntlet"
+      },
+      {
+        "id": "1325",
+        "name": "Protector's Cuirass"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171204"
+  },
+  {
+    "itemId": "1239",
+    "name": "Splendor",
+    "price": 2080,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Temp. invincibility",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1239",
+        "name": "Blood Clan's Grimoire"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      },
+      {
+        "id": "1242",
+        "name": "Enigma - Moon Goddess"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171206"
+  },
+  {
+    "itemId": "1131",
+    "name": "Starbreaker",
+    "price": 2080,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Anti-tank",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1131",
+        "name": "Sunglow Striker"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171207"
+  },
+  {
+    "itemId": "1236",
+    "name": "Staves of Sorcery",
+    "price": 2080,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Enhances BA",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1236",
+        "name": "Stone of Sorcery"
+      },
+      {
+        "id": "1243",
+        "name": "Nebulon Wood"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171208"
+  },
+  {
+    "itemId": "1224",
+    "name": "Stone of Sorcery",
+    "price": 800,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "MATK +60\nMSPD +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1224",
+        "name": "Spell Tome"
+      },
+      {
+        "id": "11110",
+        "name": "Plume of Enchantment"
+      },
+      {
+        "id": "1227",
+        "name": "Ardent Dominion"
+      },
+      {
+        "id": "1233",
+        "name": "Scepter of Reverberation"
+      },
+      {
+        "id": "1236",
+        "name": "Staves of Sorcery"
+      },
+      {
+        "id": "12211",
+        "name": "Venomous Staff"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171210"
+  },
+  {
+    "itemId": "1121",
+    "name": "Storm Sword",
+    "price": 850,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Physical Attack +75",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1121",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1111",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1125",
+        "name": "Demonsbane"
+      },
+      {
+        "id": "1127",
+        "name": "Destiny"
+      },
+      {
+        "id": "1133",
+        "name": "Eternity Blade"
+      },
+      {
+        "id": "1138",
+        "name": "Overlord's Might"
+      },
+      {
+        "id": "1328",
+        "name": "Blood Rage"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171213"
+  },
+  {
+    "itemId": "1335",
+    "name": "Succubus Cloak",
+    "price": 2020,
+    "tier": 3,
+    "category": "Defense",
+    "stats": {},
+    "passive": "Negates magical damage",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1335",
+        "name": "Clandestine Cape"
+      },
+      {
+        "id": "1323",
+        "name": "Clandestine Cape"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171216"
+  },
+  {
+    "itemId": "1141",
+    "name": "Sunchaser",
+    "price": 2100,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Boosts attack range",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1141",
+        "name": "Cloud Piercer"
+      },
+      {
+        "id": "1156",
+        "name": "Haste - Sunpool"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171217"
+  },
+  {
+    "itemId": "1122",
+    "name": "Sunglow Striker",
+    "price": 760,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "PATK +35, HP +450",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1122",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1311",
+        "name": "Resilient Agate"
+      },
+      {
+        "id": "1128",
+        "name": "Deepfrost Siege"
+      },
+      {
+        "id": "1131",
+        "name": "Starbreaker"
+      },
+      {
+        "id": "1132",
+        "name": "Bloodweeper"
+      },
+      {
+        "id": "1137",
+        "name": "Axe of Torment"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171219"
+  },
+  {
+    "itemId": "1129",
+    "name": "Swiftstrike Lance",
+    "price": 800,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "ASPD +15%, PATK +35",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1129",
+        "name": "Dagger"
+      },
+      {
+        "id": "1111",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1128",
+        "name": "Deepfrost Siege"
+      },
+      {
+        "id": "1135",
+        "name": "Sparkforged Dagger"
+      },
+      {
+        "id": "1155",
+        "name": "Daybreaker's Virtue"
+      },
+      {
+        "id": "1159",
+        "name": "Tempest"
+      },
+      {
+        "id": "11210",
+        "name": "Mortal Punisher"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171222"
+  },
+  {
+    "itemId": "1159",
+    "name": "Tempest",
+    "price": 2080,
+    "tier": 3,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Stacks Attack Speed & Movement Speed",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1159",
+        "name": "Swiftstrike Lance"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171225"
+  },
+  {
+    "itemId": "1116",
+    "name": "Thunderclap Brand",
+    "price": 820,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "PATK +35, Crit Rate +12%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1116",
+        "name": "Iron Sword"
+      },
+      {
+        "id": "1113",
+        "name": "Pugilist's Gauntlet"
+      },
+      {
+        "id": "1133",
+        "name": "Eternity Blade"
+      },
+      {
+        "id": "1134",
+        "name": "Master Sword"
+      },
+      {
+        "id": "1136",
+        "name": "Shadow Ripper"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171226"
+  },
+  {
+    "itemId": "1727",
+    "name": "Twilight Stream",
+    "price": 2040,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Boosts Magical Pierce",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1727",
+        "name": "Nebulon Wood"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171229"
+  },
+  {
+    "itemId": "1123",
+    "name": "Twinblades of Destruction",
+    "price": 760,
+    "tier": 2,
+    "category": "Attack",
+    "stats": {},
+    "passive": "ASPD +15%, MSPD +7.5%",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1123",
+        "name": "Dagger"
+      },
+      {
+        "id": "11110",
+        "name": "Plume of Enchantment"
+      },
+      {
+        "id": "1135",
+        "name": "Sparkforged Dagger"
+      },
+      {
+        "id": "1136",
+        "name": "Shadow Ripper"
+      },
+      {
+        "id": "1728",
+        "name": "Golden Blade"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171231"
+  },
+  {
+    "itemId": "1114",
+    "name": "Vampiric Scythe",
+    "price": 300,
+    "tier": 1,
+    "category": "Attack",
+    "stats": {},
+    "passive": "Physical Lifesteal",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1114",
+        "name": "Bloodsoul"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171233"
+  },
+  {
+    "itemId": "12211",
+    "name": "Venomous Staff",
+    "price": 2040,
+    "tier": 2,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Lowers Health regen",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "12211",
+        "name": "Stone of Sorcery"
+      },
+      {
+        "id": "1214",
+        "name": "Sage's Codex"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171235"
+  },
+  {
+    "itemId": "1231",
+    "name": "Void Staff",
+    "price": 2040,
+    "tier": 3,
+    "category": "Magic",
+    "stats": {},
+    "passive": "Anti-tank",
+    "active": null,
+    "unique": null,
+    "components": [
+      {
+        "id": "1231",
+        "name": "Nebulon Wood"
+      },
+      {
+        "id": "1221",
+        "name": "Grand Staff"
+      }
+    ],
+    "buildsInto": [],
+    "patchAdded": "",
+    "lastUpdated": "1782037171237"
+  }
+]
