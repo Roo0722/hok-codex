@@ -7,3 +7,22 @@ export async function checkForPatchUpdate(): Promise<{ status: string; patchVers
   }
   return res.json();
 }
+
+export interface RemotePatch {
+  patch_id: string;
+  patch_version: string;
+  release_date: string;
+  source_urls: string;
+  raw_summary: string;
+  structured_changes: string;
+  status: string;
+  discovered_at: string;
+}
+
+export async function fetchLivePatches(): Promise<RemotePatch[]> {
+  const res = await fetch(`${WORKER_BASE_URL}/api/patches`);
+  if (!res.ok) {
+    throw new Error(`Fetch patches failed: ${res.status}`);
+  }
+  return res.json();
+}
