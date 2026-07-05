@@ -16,10 +16,10 @@ Your worker has access to the following bindings:
 - Vars:
   - ENVIRONMENT: "production"
   - AI_API_URL: "https://api.groq.com/openai/v1/chat/c..."
-Uploaded hok-codex-worker (4.46 sec)
-Deployed hok-codex-worker triggers (0.37 sec)
+Uploaded hok-codex-worker (1.65 sec)
+Deployed hok-codex-worker triggers (0.27 sec)
   https://hok-codex-worker.jnjnbnd.workers.dev
   schedule: 0 */12 * * *
-Current Version ID: a8a2aa5f-be51-4239-ab9c-3b8ea401c32e
+Current Version ID: 220f70b0-edbb-4787-ae93-e1325218aa55
 
 Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
