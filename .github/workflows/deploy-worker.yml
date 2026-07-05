@@ -45,11 +45,16 @@ jobs:
           curl -s -X POST https://hok-codex-worker.jnjnbnd.workers.dev/api/patches/check -w "\nHTTP_STATUS:%{http_code}\n" > worker/patch-check-test-output.txt 2>&1 || true
           cat worker/patch-check-test-output.txt
 
+      - name: Test rankings/check endpoint end-to-end
+        run: |
+          curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/rankings/check?force=true" -w "\nHTTP_STATUS:%{http_code}\n" > worker/rankings-check-test-output.txt 2>&1 || true
+          cat worker/rankings-check-test-output.txt
+
       - name: Commit deploy output back to repo
         working-directory: worker
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt
+          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt rankings-check-test-output.txt
           git commit -m "Worker deploy output [skip ci]" || echo "Nothing to commit"
           git push
