@@ -1,0 +1,2 @@
+{"status":"new_patch_detected","patchVersion":"S44"}
+HTTP_STATUS:200
