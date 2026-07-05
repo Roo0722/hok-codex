@@ -172,14 +172,14 @@ export function PatchTab({ publishedPatches, pendingPatches }: PatchTabProps) {
                   {patch.structuredChanges.length === 0 ? (
                     <p className="text-xs text-[#808080] mt-3">No itemized changes listed for this update.</p>
                   ) : (
-                    <div className="space-y-2 mt-3">
+                    <div className="space-y-3 mt-3">
                       {patch.structuredChanges.map((change, i) => (
-                        <div key={i} className="flex items-start justify-between text-xs gap-2">
-                          <div className="min-w-0">
+                        <div key={i} className="text-xs">
+                          <div className="flex items-baseline gap-1.5 mb-0.5">
                             <span className="text-[#F0F0F0] font-medium">{change.entityName}</span>
-                            <span className="text-[#808080]"> · {change.fieldChanged}</span>
+                            <span className="text-[#808080]">· {change.fieldChanged}</span>
                           </div>
-                          <div className="shrink-0 font-mono text-right">
+                          <p className="font-mono text-[11px] leading-relaxed break-words">
                             {change.oldValue && (
                               <>
                                 <span className="text-[#808080] line-through">{change.oldValue}</span>
@@ -187,7 +187,7 @@ export function PatchTab({ publishedPatches, pendingPatches }: PatchTabProps) {
                               </>
                             )}
                             <span className="text-[#4ADE80]">{change.newValue}</span>
-                          </div>
+                          </p>
                         </div>
                       ))}
                     </div>
