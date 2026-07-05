@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { TabNav, TabKey } from "@/components/TabNav";
 import { HeroCard } from "@/components/HeroCard";
 import { HeroDetailModal } from "@/components/HeroDetailModal";
@@ -13,6 +13,7 @@ import { heroes, type Hero } from "@/data/heroes";
 import { items, type Item } from "@/data/items";
 import { arcana } from "@/data/arcana";
 import { getPublishedPatches, getPendingPatches } from "@/data/patches";
+import { fetchLiveRankings, type RemoteRanking } from "@/lib/worker-api";
 import { Search } from "lucide-react";
 
 export default function Home() {
@@ -20,6 +21,19 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [selectedHero, setSelectedHero] = useState<Hero | null>(null);
+  const [rankings, setRankings] = useState<Record<string, RemoteRanking>>({});
+
+  useEffect(() => {
+    fetchLiveRankings()
+      .then((data) => {
+        const map: Record<string, RemoteRanking> = {};
+        for (const r of data) map[r.hero_name] = r;
+        setRankings(map);
+      })
+      .catch(() => {
+        // Rankings are a nice-to-have; silently fall back to static tier data.
+      });
+  }, []);
 
   const publishedPatches = useMemo(() => getPublishedPatches(), []);
   const pendingPatches = useMemo(() => getPendingPatches(), []);
@@ -80,6 +94,7 @@ export default function Home() {
               key={hero.heroId}
               hero={hero}
               changedRecently={recentlyChangedIds.has(hero.slug)}
+              ranking={rankings[hero.name]}
               onClick={setSelectedHero}
             />
           ))}

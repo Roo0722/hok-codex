@@ -2,10 +2,12 @@
 
 import type { Hero } from "@/data/heroes";
 import { getHeroImagePath } from "@/data/heroes";
+import type { RemoteRanking } from "@/lib/worker-api";
 
 interface HeroCardProps {
   hero: Hero;
   changedRecently?: boolean;
+  ranking?: RemoteRanking | null;
   onClick: (hero: Hero) => void;
 }
 
@@ -17,8 +19,9 @@ const tierColors: Record<string, string> = {
   C: "text-[#999999]",
 };
 
-export function HeroCard({ hero, changedRecently, onClick }: HeroCardProps) {
-  const tierColor = tierColors[hero.tier] || "text-[#999999]";
+export function HeroCard({ hero, changedRecently, ranking, onClick }: HeroCardProps) {
+  const displayTier = ranking?.tier || hero.tier;
+  const tierColor = tierColors[displayTier] || "text-[#999999]";
 
   return (
     <button
@@ -44,14 +47,20 @@ export function HeroCard({ hero, changedRecently, onClick }: HeroCardProps) {
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2">
           <h3 className="text-sm font-semibold text-[#F0F0F0] truncate">{hero.name}</h3>
-          {hero.tier && (
-            <span className={`text-xs font-bold ${tierColor}`}>{hero.tier}</span>
+          {displayTier && (
+            <span className={`text-xs font-bold ${tierColor}`}>{displayTier}</span>
           )}
         </div>
         <p className="text-xs text-[#808080] truncate">
           {hero.classType}
           {hero.roles.length > 0 ? ` · ${hero.roles.join(", ")}` : ""}
         </p>
+        {ranking?.win_rate && (
+          <p className="text-[10px] text-[#666666] mt-0.5">
+            Win rate {ranking.win_rate}
+            {ranking.pick_rate ? ` · Pick ${ranking.pick_rate}` : ""}
+          </p>
+        )}
       </div>
     </button>
   );

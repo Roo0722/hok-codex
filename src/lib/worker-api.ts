@@ -8,7 +8,24 @@ export async function checkForPatchUpdate(): Promise<{ status: string; patchVers
   return res.json();
 }
 
-export interface RemotePatch {
+export interface RemoteRanking {
+  hero_name: string;
+  tier: string;
+  role: string;
+  win_rate: string;
+  pick_rate: string;
+  ban_rate: string;
+  confidence: string;
+  last_updated: string;
+}
+
+export async function fetchLiveRankings(): Promise<RemoteRanking[]> {
+  const res = await fetch(`${WORKER_BASE_URL}/api/rankings`);
+  if (!res.ok) {
+    throw new Error(`Fetch rankings failed: ${res.status}`);
+  }
+  return res.json();
+}
   patch_id: string;
   patch_version: string;
   release_date: string;
