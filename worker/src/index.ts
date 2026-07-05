@@ -6,22 +6,13 @@ import {
 } from "./patch-fetcher";
 
 async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?: string }> {
-  const itemNames = await env.DB.prepare("SELECT name FROM items").all();
-  const skillNames = await env.DB.prepare("SELECT name FROM skills").all();
-  const arcanaNames = await env.DB.prepare("SELECT name FROM arcana").all();
-
-  const knownEntityNames = [
-    ...itemNames.results.map((r) => String(r.name)),
-    ...skillNames.results.map((r) => String(r.name)),
-    ...arcanaNames.results.map((r) => String(r.name)),
-  ];
-
-  const searchResults = await searchForLatestPatch(env);
-  if (searchResults.length === 0) {
+  const searchBundles = await searchForLatestPatch(env);
+  const totalResults = searchBundles.reduce((sum, b) => sum + b.results.length, 0);
+  if (totalResults === 0) {
     return { status: "no_results" };
   }
 
-  const structured = await structurePatchWithAI(env, searchResults, knownEntityNames);
+  const structured = await structurePatchWithAI(env, searchBundles);
   if (!structured) {
     return { status: "no_new_patch" };
   }
@@ -42,7 +33,7 @@ async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?:
       patchId,
       structured.patchVersion,
       structured.releaseDate,
-      JSON.stringify(searchResults.map((r) => r.url)),
+      JSON.stringify(searchBundles.flatMap((b) => b.results.map((r) => r.url))),
       structured.rawSummary,
       JSON.stringify(structured.structuredChanges),
       "pending",

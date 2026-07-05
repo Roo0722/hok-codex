@@ -1,16 +1,13 @@
-export interface Env {
-  DB: D1Database;
-  TAVILY_API_KEY: string;
-  AI_API_KEY: string;
-  AI_API_URL: string;
-}
-
-interface TavilyResult {
-  title: string;
-  url: string;
-  content: string;
-  published_date?: string;
-}
+import {
+  Env,
+  multiQuerySearch,
+  getKnownEntityNames,
+  callStructuringAI,
+  validateEntityName,
+  countCorroboratingSources,
+  MIN_CORROBORATING_SOURCES_FOR_HIGH_CONFIDENCE,
+  type SourceBundle,
+} from "./scraping-protocol";
 
 interface StructuredChange {
   entityType: "item" | "skill" | "arcana" | "hero";
@@ -19,58 +16,54 @@ interface StructuredChange {
   fieldChanged: string;
   oldValue: string;
   newValue: string;
+  confidence?: "high" | "low";
 }
 
-interface StructuredPatch {
+export interface StructuredPatch {
   patchVersion: string;
   releaseDate: string;
   rawSummary: string;
   structuredChanges: StructuredChange[];
 }
 
-export async function searchForLatestPatch(env: Env): Promise<TavilyResult[]> {
-  const res = await fetch("https://api.tavily.com/search", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      api_key: env.TAVILY_API_KEY,
-      query: "Honor of Kings Global latest patch notes update",
-      search_depth: "advanced",
-      max_results: 6,
-      include_domains: [
-        "world.honorofkings.com",
-        "hokstats.gg",
-        "reddit.com",
-        "liquipedia.net",
-      ],
-    }),
+const SEARCH_QUERIES = [
+  "Honor of Kings Global latest patch notes",
+  "Honor of Kings Global balance update hero changes",
+  "Honor of Kings Global server maintenance update announcement",
+];
+
+const SYSTEM_PROMPT = `You extract structured patch-note data for Honor of Kings Global from search results.
+
+Strict rules:
+- Only reference hero, item, or arcana names that appear in the provided known-entity list. If you cannot match a name to that list, omit the change entirely rather than guessing.
+- Do not invent patch versions, dates, or values. If a detail is not clearly stated in the source text, leave the field as an empty string.
+- If the search results do not describe an identifiable new patch, respond with {"patchVersion": null}.
+- Output ONLY valid JSON, no markdown formatting, no commentary.`;
+
+export async function searchForLatestPatch(env: Env): Promise<SourceBundle[]> {
+  return multiQuerySearch(env, SEARCH_QUERIES, {
+    includeDomains: ["world.honorofkings.com", "hokstats.gg", "reddit.com", "liquipedia.net"],
+    maxResultsPerQuery: 5,
   });
-
-  if (!res.ok) {
-    throw new Error(`Tavily search failed: ${res.status}`);
-  }
-
-  const data = (await res.json()) as { results: TavilyResult[] };
-  return data.results ?? [];
 }
 
 export async function structurePatchWithAI(
   env: Env,
-  searchResults: TavilyResult[],
-  knownEntityNames: string[]
+  bundles: SourceBundle[]
 ): Promise<StructuredPatch | null> {
-  const context = searchResults
-    .map((r) => `Source: ${r.url}\nTitle: ${r.title}\nContent: ${r.content}`)
+  const known = await getKnownEntityNames(env);
+  const context = bundles
+    .flatMap((b) => b.results.map((r) => `Source: ${r.url}\nTitle: ${r.title}\nContent: ${r.content}`))
     .join("\n\n---\n\n");
 
-  const prompt = `You are extracting structured patch-note data for Honor of Kings Global from search results below.
-
-Known entity names in our database (only match against these, do not invent new ones): ${knownEntityNames.slice(0, 200).join(", ")}
+  const userContent = `Known heroes: ${known.heroes.slice(0, 200).join(", ")}
+Known items: ${known.items.slice(0, 200).join(", ")}
+Known arcana: ${known.arcana.join(", ")}
 
 Search results:
 ${context}
 
-Return ONLY valid JSON, no markdown, no preamble, matching exactly this shape:
+Return JSON matching exactly:
 {
   "patchVersion": "string, e.g. S38",
   "releaseDate": "YYYY-MM-DD",
@@ -79,64 +72,44 @@ Return ONLY valid JSON, no markdown, no preamble, matching exactly this shape:
     {
       "entityType": "item" | "skill" | "arcana" | "hero",
       "entityId": "best-guess id or slug",
-      "entityName": "exact name as it appears in known entity names, if matched",
+      "entityName": "must exactly match a name from the known lists above",
       "fieldChanged": "e.g. cooldown, price, damage",
-      "oldValue": "string",
+      "oldValue": "string, empty if unknown",
       "newValue": "string"
     }
   ]
-}
+}`;
 
-If no new patch is identifiable from these results, return: {"patchVersion": null}`;
-
-  const res = await fetch(env.AI_API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${env.AI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
-      messages: [{ role: "user", content: prompt }],
-      temperature: 0.1,
-    }),
-  });
-
-  if (!res.ok) {
-    throw new Error(`AI structuring failed: ${res.status}`);
-  }
-
-  const data = (await res.json()) as {
-    choices: { message: { content: string } }[];
-  };
-  const raw = data.choices?.[0]?.message?.content ?? "";
-  const cleaned = raw.replace(/```json|```/g, "").trim();
-
-  try {
-    const parsed = JSON.parse(cleaned);
-    if (!parsed.patchVersion) return null;
-    return parsed as StructuredPatch;
-  } catch {
+  const parsed = await callStructuringAI(env, SYSTEM_PROMPT, userContent);
+  if (!parsed || typeof parsed !== "object" || !("patchVersion" in parsed) || !parsed.patchVersion) {
     return null;
   }
+
+  const result = parsed as StructuredPatch;
+
+  // Validate every entity name against the known lists; drop unmatched ones
+  // and attach a corroboration-based confidence score.
+  const allKnown = [...known.heroes, ...known.items, ...known.arcana];
+  result.structuredChanges = result.structuredChanges
+    .map((change) => {
+      const matched = validateEntityName(change.entityName, allKnown);
+      if (!matched) return null;
+      const sourceCount = countCorroboratingSources(bundles, matched);
+      return {
+        ...change,
+        entityName: matched,
+        confidence: sourceCount >= MIN_CORROBORATING_SOURCES_FOR_HIGH_CONFIDENCE ? "high" : "low",
+      } as StructuredChange;
+    })
+    .filter((c): c is StructuredChange => c !== null);
+
+  return result;
 }
 
-export async function validateStructuredPatch(
-  env: Env,
-  patch: StructuredPatch
-): Promise<boolean> {
+export async function validateStructuredPatch(env: Env, patch: StructuredPatch): Promise<boolean> {
   if (!patch.patchVersion || !patch.releaseDate) return false;
-  if (!Array.isArray(patch.structuredChanges)) return false;
 
-  for (const change of patch.structuredChanges) {
-    if (!change.entityType || !change.entityId || !change.fieldChanged) {
-      return false;
-    }
-  }
-
-  const existing = await env.DB.prepare(
-    "SELECT patch_id FROM patches WHERE patch_version = ?"
-  )
+  const existing = await env.DB.prepare("SELECT patch_id FROM patches WHERE patch_version = ?")
     .bind(patch.patchVersion)
     .first();
 
