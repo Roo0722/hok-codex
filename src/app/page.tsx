@@ -7,6 +7,7 @@ import { HeroDetailModal } from "@/components/HeroDetailModal";
 import { ItemCard } from "@/components/ItemCard";
 import { ItemDetailModal } from "@/components/ItemDetailModal";
 import { ArcanaCard } from "@/components/ArcanaCard";
+import { ArcanaRecommendations } from "@/components/ArcanaRecommendations";
 import { PatchTab } from "@/components/PatchTab";
 import { heroes, type Hero } from "@/data/heroes";
 import { items, type Item } from "@/data/items";
@@ -105,18 +106,25 @@ export default function Home() {
       )}
 
       {activeTab === "arcana" && (
-        <div className="grid grid-cols-1 gap-2 px-3">
-          {filteredArcana.map((a) => (
-            <ArcanaCard
-              key={a.arcanaId}
-              arcana={a}
-              changedRecently={recentlyChangedIds.has(a.arcanaId)}
-            />
-          ))}
-          {filteredArcana.length === 0 && (
-            <p className="text-sm text-[#808080] text-center py-8">No arcana found.</p>
+        <>
+          <div className="grid grid-cols-1 gap-2 px-3">
+            {filteredArcana.map((a) => (
+              <ArcanaCard
+                key={a.arcanaId}
+                arcana={a}
+                changedRecently={recentlyChangedIds.has(a.arcanaId)}
+              />
+            ))}
+            {filteredArcana.length === 0 && (
+              <p className="text-sm text-[#808080] text-center py-8">No arcana found.</p>
+            )}
+          </div>
+          {query === "" && (
+            <div className="mt-4">
+              <ArcanaRecommendations />
+            </div>
           )}
-        </div>
+        </>
       )}
 
       {activeTab === "patches" && (
