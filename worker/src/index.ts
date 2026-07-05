@@ -129,8 +129,12 @@ export default {
 
     if (url.pathname === "/api/rankings/check" && request.method === "POST") {
       const force = url.searchParams.get("force") === "true";
-      const result = await runRankingsCheck(env, force);
-      return withCors(Response.json(result));
+      try {
+        const result = await runRankingsCheck(env, force);
+        return withCors(Response.json(result));
+      } catch (e) {
+        return withCors(Response.json({ error: String(e), stack: e instanceof Error ? e.stack : undefined }, { status: 500 }));
+      }
     }
 
     if (url.pathname === "/api/patches/check" && request.method === "POST") {
