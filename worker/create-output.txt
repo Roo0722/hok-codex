@@ -13,4 +13,4 @@
 [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA database with that name already exists[0m
 
 
-🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-07-05_00-13-48_315.log"
+🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-07-05_02-09-15_739.log"
