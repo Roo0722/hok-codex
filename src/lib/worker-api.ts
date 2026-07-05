@@ -26,6 +26,7 @@ export async function fetchLiveRankings(): Promise<RemoteRanking[]> {
   }
   return res.json();
 }
+export interface RemotePatch {
   patch_id: string;
   patch_version: string;
   release_date: string;
