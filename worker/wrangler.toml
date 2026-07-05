@@ -1,6 +1,7 @@
 name = "hok-codex-worker"
 main = "src/index.ts"
 compatibility_date = "2026-01-01"
+account_id = "5bca87c509482eb499947f96a5e38d0a"
 
 [triggers]
 crons = ["0 */12 * * *"]
