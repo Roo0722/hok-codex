@@ -1,2 +1,2 @@
-{"status":"new_patch_detected","patchVersion":"S44"}
+{"status":"already_known_or_invalid","patchVersion":"S44"}
 HTTP_STATUS:200
