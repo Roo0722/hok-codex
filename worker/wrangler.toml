@@ -9,7 +9,7 @@ crons = ["0 */12 * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "hok-codex-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "a9c68163-013f-43e7-bcf8-87efd6b4ce6e"
 
 [vars]
 ENVIRONMENT = "production"
