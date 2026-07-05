@@ -2,7 +2,7 @@
 
 import type { Hero } from "@/data/heroes";
 import { getHeroImagePath, getHeroSplashPath } from "@/data/heroes";
-import { getSkillsForHero, getSkillImagePath } from "@/data/skills";
+import { getSkillsForHero } from "@/data/skills";
 import { X } from "lucide-react";
 
 interface HeroDetailModalProps {
@@ -83,22 +83,17 @@ export function HeroDetailModal({ hero, onClose }: HeroDetailModalProps) {
           <p className="text-xs font-semibold text-[#C2924C] mb-2">Skills</p>
           <div className="space-y-3">
             {skills.map((skill) => (
-              <div key={skill.skillId} className="flex gap-3">
-                <div className="w-10 h-10 rounded bg-[#2A2A2A] overflow-hidden shrink-0">
-                  <img
-                    src={getSkillImagePath(skill.heroSlug, skill.slot)}
-                    alt={skill.name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).style.display = "none";
-                    }}
-                  />
+              <div
+                key={skill.skillId}
+                className="hok-card rounded-lg p-3 border border-[#C2924C]/10"
+              >
+                <div className="flex items-baseline gap-2 mb-1.5">
+                  <span className="text-[10px] font-mono uppercase text-[#C2924C] tracking-wide">
+                    {skill.slot === "Passive" ? "passive" : skill.slot === "Ultimate" ? "ultimate" : "active"}
+                  </span>
+                  <span className="text-sm font-semibold text-[#F0F0F0]">{skill.name}</span>
                 </div>
-                <div className="min-w-0">
-                  <p className="text-xs text-[#808080]">{skill.slot}</p>
-                  <p className="text-sm font-semibold text-[#F0F0F0]">{skill.name}</p>
-                  <p className="text-xs text-[#CCCCCC] leading-relaxed">{skill.description}</p>
-                </div>
+                <p className="text-xs text-[#CCCCCC] leading-relaxed">{skill.description}</p>
               </div>
             ))}
             {skills.length === 0 && (
