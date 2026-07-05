@@ -15,10 +15,10 @@ Your worker has access to the following bindings:
   - DB: hok-codex-db (a9c68163-013f-43e7-bcf8-87efd6b4ce6e)
 - Vars:
   - ENVIRONMENT: "production"
-Uploaded hok-codex-worker (1.31 sec)
-Deployed hok-codex-worker triggers (0.21 sec)
+Uploaded hok-codex-worker (1.30 sec)
+Deployed hok-codex-worker triggers (0.35 sec)
   https://hok-codex-worker.jnjnbnd.workers.dev
   schedule: 0 */12 * * *
-Current Version ID: 28fb0fdc-388c-4a2e-94cd-bee48e193a10
+Current Version ID: 422962d5-4811-493f-9d67-7ee6d30a76cb
 
 Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
