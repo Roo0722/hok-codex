@@ -9,11 +9,8 @@
   After installation, run Wrangler with `npx wrangler`.
 
 
-✅ Successfully created DB 'hok-codex-db' in region WNAM
-Created your new D1 database.
 
-[[d1_databases]]
-binding = "DB"
-database_name = "hok-codex-db"
-database_id = "a9c68163-013f-43e7-bcf8-87efd6b4ce6e"
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA database with that name already exists[0m
 
+
+🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-07-05_00-13-48_315.log"
