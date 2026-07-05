@@ -9,17 +9,17 @@
   After installation, run Wrangler with `npx wrangler`.
 
 
-Total Upload: 15.45 KiB / gzip: 4.51 KiB
+Total Upload: 15.61 KiB / gzip: 4.59 KiB
 Your worker has access to the following bindings:
 - D1 Databases:
   - DB: hok-codex-db (a9c68163-013f-43e7-bcf8-87efd6b4ce6e)
 - Vars:
   - ENVIRONMENT: "production"
   - AI_API_URL: "https://api.groq.com/openai/v1/chat/c..."
-Uploaded hok-codex-worker (1.35 sec)
-Deployed hok-codex-worker triggers (0.25 sec)
+Uploaded hok-codex-worker (1.23 sec)
+Deployed hok-codex-worker triggers (0.57 sec)
   https://hok-codex-worker.jnjnbnd.workers.dev
   schedule: 0 */12 * * *
-Current Version ID: 2e820fcf-71a8-41eb-b923-11d731da95ee
+Current Version ID: 0a63232a-8e54-4a40-8f35-6afe1690753a
 
 Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
