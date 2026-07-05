@@ -1,2 +1,2 @@
-{"error":"Error: AI structuring failed: 429","stack":"Error: AI structuring failed: 429\n    at callStructuringAI (index.js:75:11)\n    at async runRankingsCheck (index.js:242:18)\n    at async Object.fetch (index.js:367:24)"}
-HTTP_STATUS:500
+{"status":"updated","count":153}
+HTTP_STATUS:200

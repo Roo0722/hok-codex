@@ -1,4 +1,6 @@
 
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
  ⛅️ wrangler 3.114.17 (update available 4.107.0)
 ------------------------------------------------
 
@@ -9,17 +11,15 @@
   After installation, run Wrangler with `npx wrangler`.
 
 
-Total Upload: 15.61 KiB / gzip: 4.59 KiB
+Total Upload: 15.62 KiB / gzip: 4.59 KiB
 Your worker has access to the following bindings:
 - D1 Databases:
   - DB: hok-codex-db (a9c68163-013f-43e7-bcf8-87efd6b4ce6e)
 - Vars:
   - ENVIRONMENT: "production"
-  - AI_API_URL: "https://api.groq.com/openai/v1/chat/c..."
-Uploaded hok-codex-worker (1.15 sec)
-Deployed hok-codex-worker triggers (0.27 sec)
+  - AI_API_URL: "https://openrouter.ai/api/v1/chat/com..."
+Uploaded hok-codex-worker (1.93 sec)
+Deployed hok-codex-worker triggers (0.35 sec)
   https://hok-codex-worker.jnjnbnd.workers.dev
   schedule: 0 */12 * * *
-Current Version ID: 7c44c638-7339-40ad-8499-5fdb87387210
-
-Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+Current Version ID: c7cb2075-3b6d-4c41-8324-6cccedc88b94
