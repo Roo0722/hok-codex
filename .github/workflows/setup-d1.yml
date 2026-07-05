@@ -33,11 +33,17 @@ jobs:
           cat create-output.txt
           cat list-output.txt
 
+      - name: Initialize schema on remote D1
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx wrangler d1 execute hok-codex-db --remote --file=./schema.sql > schema-output.txt 2>&1 || true
+
       - name: Commit results back to repo
         working-directory: worker
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add create-output.txt list-output.txt
+          git add create-output.txt list-output.txt schema-output.txt
           git commit -m "D1 setup output [skip ci]" || echo "Nothing to commit"
           git push
