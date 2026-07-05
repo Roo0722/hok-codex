@@ -1,5 +1,17 @@
 [
   {
+    "patchId": "cmqno335r000pqy6mahyexu12-jul02",
+    "patchVersion": "S15",
+    "releaseDate": "2026-07-02",
+    "sourceUrls": [
+      "https://www.hokhelper.com/en/patch-notes"
+    ],
+    "rawSummary": "Non-disruptive global server maintenance update, approximately 3 MB. No specific hero, item, or arcana balance changes announced.",
+    "structuredChanges": [],
+    "status": "published",
+    "discoveredAt": "1783123200000"
+  },
+  {
     "patchId": "cmqno335r000pqy6mahyexu11",
     "patchVersion": "S15",
     "releaseDate": "2026-06-19",
