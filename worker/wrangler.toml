@@ -13,4 +13,4 @@ database_id = "a9c68163-013f-43e7-bcf8-87efd6b4ce6e"
 
 [vars]
 ENVIRONMENT = "production"
-AI_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+AI_API_URL = "https://openrouter.ai/api/v1/chat/completions"

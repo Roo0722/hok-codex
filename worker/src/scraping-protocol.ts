@@ -132,7 +132,7 @@ export async function callStructuringAI(
       Authorization: `Bearer ${env.AI_API_KEY}`,
     },
     body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
+      model: "meta-llama/llama-3.3-70b-instruct",
       messages: [
         { role: "system", content: systemInstructions },
         { role: "user", content: userContent },
