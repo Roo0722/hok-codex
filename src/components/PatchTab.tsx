@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import type { Patch } from "@/data/patches";
-import { ChevronRight, Calendar, AlertCircle } from "lucide-react";
+import { checkForPatchUpdate } from "@/lib/worker-api";
+import { ChevronRight, Calendar, AlertCircle, RefreshCw } from "lucide-react";
 
 interface PatchTabProps {
   publishedPatches: Patch[];
@@ -11,9 +12,45 @@ interface PatchTabProps {
 
 export function PatchTab({ publishedPatches, pendingPatches }: PatchTabProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [checking, setChecking] = useState(false);
+  const [checkResult, setCheckResult] = useState<string | null>(null);
+
+  const handleCheck = async () => {
+    setChecking(true);
+    setCheckResult(null);
+    try {
+      const result = await checkForPatchUpdate();
+      if (result.status === "new_patch_detected") {
+        setCheckResult(`New patch found: ${result.patchVersion}. Refresh the app to see it.`);
+      } else if (result.status === "no_new_patch" || result.status === "no_results") {
+        setCheckResult("No new patch found — you're up to date.");
+      } else if (result.status === "already_known_or_invalid") {
+        setCheckResult("Latest patch already recorded.");
+      } else {
+        setCheckResult("Check complete.");
+      }
+    } catch {
+      setCheckResult("Couldn't reach the update service. Check your connection.");
+    } finally {
+      setChecking(false);
+    }
+  };
 
   return (
     <div className="p-3 space-y-3">
+      <button
+        onClick={handleCheck}
+        disabled={checking}
+        className="w-full flex items-center justify-center gap-2 hok-card rounded-lg py-2.5 text-sm font-medium text-[#E7C285] disabled:opacity-50"
+      >
+        <RefreshCw size={14} className={checking ? "animate-spin" : ""} />
+        {checking ? "Checking for updates..." : "Check for updates"}
+      </button>
+
+      {checkResult && (
+        <p className="text-xs text-[#999999] text-center">{checkResult}</p>
+      )}
+
       {pendingPatches.length > 0 && (
         <div className="hok-card rounded-lg p-3 border border-[#E85D3A]/30">
           <div className="flex items-center gap-2 mb-2">

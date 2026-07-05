@@ -1,0 +1,3612 @@
+[
+  {
+    "heroId": "cmqnmx4bc0000qy6v9ro91i2h",
+    "slug": "annette",
+    "name": "Annette",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Annette is a Season 15 Roam Support/Mage who protects allies with wind zones, shields, knockback, and teamfight control.",
+    "stats": {
+      "maxHp": null,
+      "physDef": null,
+      "magDef": null,
+      "physAtk": null,
+      "moveSpeed": null,
+      "hpPer5s": null,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169688"
+  },
+  {
+    "heroId": "cmqnmx4bj0007qy6vrj4c6fw4",
+    "slug": "ata",
+    "name": "Ata",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Tank",
+    "subclasses": [
+      "Vanguard Tank",
+      "Crowd Control/Recovery",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Ata is a C-tier Clash Lane / Jungling Tank in Honor of Kings. Specialty: Crowd Control/Recovery.",
+    "stats": {
+      "maxHp": 3700,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 191,
+      "moveSpeed": 375,
+      "hpPer5s": 81,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169695"
+  },
+  {
+    "heroId": "cmqnmx4c00010qy6vpyq70ceq",
+    "slug": "butterfly",
+    "name": "Butterfly",
+    "tier": "C",
+    "difficulty": 3,
+    "classType": "Assassin/Fighter",
+    "subclasses": [
+      "Assassin Fighter",
+      "Cleanup",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Butterfly is a mid-tier Jungle Assassin who wants to play cleanup. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3400,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 380,
+      "hpPer5s": 57,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169712"
+  },
+  {
+    "heroId": "cmqnmx4cf001vqy6vnc0bezh6",
+    "slug": "devara",
+    "name": "Devara",
+    "tier": "S",
+    "difficulty": 3,
+    "classType": "Fighter",
+    "subclasses": [],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Devara is a Season 15 Clash Lane Fighter who uses energy-based thunder skills for engage, shielding, crowd control, and extended fights.",
+    "stats": {
+      "maxHp": null,
+      "physDef": null,
+      "magDef": null,
+      "physAtk": null,
+      "moveSpeed": null,
+      "hpPer5s": null,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169727"
+  },
+  {
+    "heroId": "cmqnmx4cm002gqy6v58nv48xc",
+    "slug": "fatih",
+    "name": "Fatih",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Lifesteal",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Fatih is a B-tier Clash Lane / Jungling Fighter in Honor of Kings. Specialty: Lifesteal.",
+    "stats": {
+      "maxHp": 3502,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 180,
+      "moveSpeed": 380,
+      "hpPer5s": 54,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169735"
+  },
+  {
+    "heroId": "cmqnmx4cz003bqy6v5ck8zqz0",
+    "slug": "florentino",
+    "name": "Florentino",
+    "tier": "A",
+    "difficulty": 3,
+    "classType": "Fighter",
+    "subclasses": [],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Florentino is a Season 15 Clash Lane Fighter/Duelist built around precise engages, mobility, and sustained skirmish pressure.",
+    "stats": {
+      "maxHp": null,
+      "physDef": null,
+      "magDef": null,
+      "physAtk": null,
+      "moveSpeed": null,
+      "hpPer5s": null,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169747"
+  },
+  {
+    "heroId": "cmqnmx4d4003mqy6vgse9xi7e",
+    "slug": "flowborn-mage",
+    "name": "Flowborn (Mage)",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Sustained Damage",
+      "Late Game",
+      "Easy"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Flowborn (Mage) are a situational Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Boots of the Arcane.",
+    "stats": {
+      "maxHp": 3270,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 360,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169753"
+  },
+  {
+    "heroId": "cmqnmx4df004fqy6vwjzorxkz",
+    "slug": "flowborn-tank",
+    "name": "Flowborn (Tank)",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Tank",
+    "subclasses": [
+      "Vanguard Tank",
+      "Crowd Control",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Flowborn (Tank) are a mid-tier Clash Lane Tank who wants to soak engage and create space. Public guides recommend a build starting with Giant's Grip.",
+    "stats": {
+      "maxHp": 3650,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 188,
+      "moveSpeed": 375,
+      "hpPer5s": 80,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169764"
+  },
+  {
+    "heroId": "cmqnmx4dr005aqy6vzoea066o",
+    "slug": "garuda",
+    "name": "Garuda",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Poke/Speed Up",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Garuda is a B-tier Mid Mage in Honor of Kings. Specialty: Poke/Speed Up.",
+    "stats": {
+      "maxHp": 3270,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 167,
+      "moveSpeed": 360,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169775"
+  },
+  {
+    "heroId": "cmqnmx4e50065qy6vpvdk70lb",
+    "slug": "lapulapu",
+    "name": "Lapulapu",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Support/Tank",
+    "subclasses": [
+      "Defensive Support",
+      "Crowd Control/Team Buffs",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "summary": "Lapulapu is a C-tier Roam / Clash Lane Support/Tank in Honor of Kings. Specialty: Crowd Control/Team Buffs.",
+    "stats": {
+      "maxHp": 3566,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 162,
+      "moveSpeed": 375,
+      "hpPer5s": 88,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169789"
+  },
+  {
+    "heroId": "cmqnmx4eg0070qy6vjrje146f",
+    "slug": "lorion",
+    "name": "Lorion",
+    "tier": "A",
+    "difficulty": 3,
+    "classType": "Mage",
+    "subclasses": [],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Lorion is a Season 15 Mid Mage focused on orb positioning, burst damage, and area crowd control around objectives.",
+    "stats": {
+      "maxHp": null,
+      "physDef": null,
+      "magDef": null,
+      "physAtk": null,
+      "moveSpeed": null,
+      "hpPer5s": null,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169800"
+  },
+  {
+    "heroId": "cmqnmx4ej0077qy6vfgxxfnli",
+    "slug": "luara",
+    "name": "Luara",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Carry/Traverse Terrain",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Luara is a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity.",
+    "stats": {
+      "maxHp": 3204,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 360,
+      "hpPer5s": 37,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169803"
+  },
+  {
+    "heroId": "cmqnmx4eu0084qy6vd8jxxcx0",
+    "slug": "agudo",
+    "name": "Agudo",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Tank Marksman",
+      "Ranged Harass/Team Buffs",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle",
+      "Farm"
+    ],
+    "summary": "Agudo is a struggling Jungle Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Relentless Blade. Watch for Ata-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3280,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 176,
+      "moveSpeed": 370,
+      "hpPer5s": 50,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169815"
+  },
+  {
+    "heroId": "cmqnmx4f60093qy6vua9jogrv",
+    "slug": "alessio",
+    "name": "Alessio",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Nimble Marksman",
+      "Ranged Harass",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Alessio is a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity. Watch for Arke-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3340,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 370,
+      "hpPer5s": 46,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169827"
+  },
+  {
+    "heroId": "cmqnmx4ff009sqy6vwcxdgx10",
+    "slug": "allain",
+    "name": "Allain",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Gap-Close",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Allain is a mid-tier Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Fortitude. Watch for Sima Yi-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3600,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 177,
+      "moveSpeed": 380,
+      "hpPer5s": 51,
+      "manaPer5s": null,
+      "maxMana": 96,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169835"
+  },
+  {
+    "heroId": "cmqnmx4fp00anqy6vls7sym6j",
+    "slug": "angela",
+    "name": "Angela",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Burst/Shield",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Angela is a strong Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Spell Tome. Watch for Han Xin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3328,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 172,
+      "moveSpeed": 360,
+      "hpPer5s": 47,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169845"
+  },
+  {
+    "heroId": "cmqnmx4g000biqy6vwhi1gtut",
+    "slug": "aoyin",
+    "name": "Ao'yin",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Artillery Marksman",
+      "Crowd Control/Recovery",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Ao'yin is a top-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Lightfoot Shoes. Watch for Garo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3256,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 365,
+      "hpPer5s": 44,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169856"
+  },
+  {
+    "heroId": "cmqnmx4ga00cfqy6v3jd0f0pk",
+    "slug": "arke",
+    "name": "Arke",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close/Cleanup",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Arke is a top-tier Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3315,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 178,
+      "moveSpeed": 385,
+      "hpPer5s": 50,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169866"
+  },
+  {
+    "heroId": "cmqnmx4gi00d2qy6vkpsg6aml",
+    "slug": "arli",
+    "name": "Arli",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Nimble Marksman",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Arli is a mid-tier Farm Marksman who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Dexterity. Watch for Donghuang-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3219,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 360,
+      "hpPer5s": 39,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169875"
+  },
+  {
+    "heroId": "cmqnmx4gr00dxqy6ve2ec8kbr",
+    "slug": "arthur",
+    "name": "Arthur",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Charger",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Arthur is a strong Clash Lane Fighter who wants to soak engage and create space. Public guides recommend a build starting with Lightfoot Shoes. Watch for Xiang Yu-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3622,
+      "physDef": 98,
+      "magDef": 50,
+      "physAtk": 164,
+      "moveSpeed": 390,
+      "hpPer5s": null,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169884"
+  },
+  {
+    "heroId": "cmqnmx4h000emqy6vhftjiuhd",
+    "slug": "athena",
+    "name": "Athena",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Assassin",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Athena is a struggling Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Axe of Torment. Watch for Sun Bin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3201,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 390,
+      "hpPer5s": 44,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169893"
+  },
+  {
+    "heroId": "cmqnmx4h800f9qy6vmcy0lmh7",
+    "slug": "augran",
+    "name": "Augran",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "summary": "Augran is a top-tier Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Liu Bei-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3401,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 177,
+      "moveSpeed": 380,
+      "hpPer5s": 51,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169900"
+  },
+  {
+    "heroId": "cmqnmx4hh00g4qy6vrvc01y8u",
+    "slug": "bai-qi",
+    "name": "Bai Qi",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Tank",
+    "subclasses": [
+      "Vanguard Tank",
+      "Crowd Control",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Bai Qi is a mid-tier Clash Lane Tank who wants to soak engage and create space. Public guides recommend a build starting with Boots of Fortitude. Watch for Zhuangzi-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3625,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 181,
+      "moveSpeed": 375,
+      "hpPer5s": 50,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169909"
+  },
+  {
+    "heroId": "cmqnmx4ho00gtqy6v3c9y2ght",
+    "slug": "biron",
+    "name": "Biron",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Heavy Fighter",
+      "Gap-Close/Crowd Control",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Biron is a strong Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Meteor. Watch for Lady Sun-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3508,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 380,
+      "hpPer5s": 50,
+      "manaPer5s": null,
+      "maxMana": 90,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169916"
+  },
+  {
+    "heroId": "cmqnmx4hy00hoqy6vdj13z7xl",
+    "slug": "cai-yan",
+    "name": "Cai Yan",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [
+      "Buff Support",
+      "Team Buffs/Recovery",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Cai Yan is a strong Roam Support who wants to play team buffs. Watch for Gao Changgong-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3314,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 167,
+      "moveSpeed": 365,
+      "hpPer5s": 38,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169926"
+  },
+  {
+    "heroId": "cmqnmx4i300i3qy6vdx3h4zz5",
+    "slug": "chano",
+    "name": "Chano",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Artillery Marksman",
+      "Initiate/Cleanup",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm",
+      "Jungle"
+    ],
+    "summary": "Chano is a strong Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity. Watch for Ziya-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3299,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 375,
+      "hpPer5s": 37,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169932"
+  },
+  {
+    "heroId": "cmqnmx4id00iyqy6v84cnw11k",
+    "slug": "charlotte",
+    "name": "Charlotte",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Charlotte is a mid-tier Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Meteor. Watch for Arli-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3413,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 385,
+      "hpPer5s": 50,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169941"
+  },
+  {
+    "heroId": "cmqnmx4in00jxqy6vuzp14m88",
+    "slug": "chicha",
+    "name": "Chicha",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Maximum Attack Speed/Cleanup",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle",
+      "Farm"
+    ],
+    "summary": "Chicha is a top-tier Clash Lane Fighter who wants to play maximum attack speed. Public guides recommend a build starting with Twinblades of Destruction.",
+    "stats": {
+      "maxHp": 3472,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 390,
+      "hpPer5s": 53,
+      "manaPer5s": 15,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169951"
+  },
+  {
+    "heroId": "cmqnmx4iw00ksqy6v8mxaojmx",
+    "slug": "cirrus",
+    "name": "Cirrus",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close/Cleanup",
+      "Mid Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Cirrus is a struggling Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Di Renjie-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3218,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 380,
+      "hpPer5s": 49,
+      "manaPer5s": null,
+      "maxMana": 450,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169960"
+  },
+  {
+    "heroId": "cmqnmx4j200lbqy6v2zxwhpba",
+    "slug": "consort-yu",
+    "name": "Consort Yu",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Gap-Close/Ranged Harass",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Consort Yu is a strong Farm Marksman who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Dexterity. Watch for Luna-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3234,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 167,
+      "moveSpeed": 370,
+      "hpPer5s": 36,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169966"
+  },
+  {
+    "heroId": "cmqnmx4ja00m6qy6vrx4upacw",
+    "slug": "da-qiao",
+    "name": "Da Qiao",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support/Mage",
+    "subclasses": [
+      "Tactical Support",
+      "Team Buffs",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Roam",
+      "Mid"
+    ],
+    "summary": "Da Qiao is a top-tier Roam Support who wants to delete priority targets in one rotation. Public guides recommend a build starting with Guardian. Watch for Arke-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3266,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 365,
+      "hpPer5s": 42,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169975"
+  },
+  {
+    "heroId": "cmqnmx4jh00mvqy6v3vb8nv2m",
+    "slug": "daji",
+    "name": "Daji",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Burst/Initiate",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Daji is a top-tier Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Spell Tome. Watch for Gao Changgong-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3295,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 172,
+      "moveSpeed": 360,
+      "hpPer5s": 46,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169982"
+  },
+  {
+    "heroId": "cmqnmx4jq00nqqy6vbpvmcfwk",
+    "slug": "dharma",
+    "name": "Dharma",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Crowd Control",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Dharma is a struggling Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Fortitude. Watch for Xiang Yu-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3456,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 174,
+      "moveSpeed": 380,
+      "hpPer5s": 51,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169990"
+  },
+  {
+    "heroId": "cmqnmx4jx00odqy6v2xvk0nid",
+    "slug": "di-renjie",
+    "name": "Di Renjie",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Ranged Harass",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Di Renjie is a situational Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity.",
+    "stats": {
+      "maxHp": 3352,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 370,
+      "hpPer5s": 40,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037169997"
+  },
+  {
+    "heroId": "cmqnmx4k600p8qy6vx53dzedh",
+    "slug": "dian-wei",
+    "name": "Dian Wei",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Cleanup",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Dian Wei is a strong Jungle Fighter who wants to play cleanup. Public guides recommend a build starting with Relentless Blade. Watch for Sun Bin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3475,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 385,
+      "hpPer5s": 52,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170006"
+  },
+  {
+    "heroId": "cmqnmx4kc00ptqy6vd1u48c3a",
+    "slug": "diaochan",
+    "name": "Diaochan",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/True Damage",
+      "Late Game",
+      "Very Hard"
+    ],
+    "roles": [
+      "Mid",
+      "Clash Lane"
+    ],
+    "summary": "Diaochan is a mid-tier Mid Mage who wants to play sustained damage. Public guides recommend a build starting with Boots of Tranquility. Watch for Liang-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3205,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 365,
+      "hpPer5s": 43,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170013"
+  },
+  {
+    "heroId": "cmqnmx4km00qoqy6vq1je5cxp",
+    "slug": "dolia",
+    "name": "Dolia",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [
+      "Buff Support",
+      "Team Buffs",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Dolia is a strong Roam Support who wants to protect carries through burst windows. Public guides recommend a build starting with Knowledge Gem. Watch for Sima Yi-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3308,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 365,
+      "hpPer5s": 46,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170022"
+  },
+  {
+    "heroId": "cmqnmx4ky00rlqy6vrjmotzb4",
+    "slug": "donghuang",
+    "name": "Donghuang",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support/Tank",
+    "subclasses": [
+      "Offensive Support",
+      "Recovery/Sustained Crowd Control",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "summary": "Donghuang is a mid-tier Roam Support who wants to soak engage and create space. Public guides recommend a build starting with Boots of Resistance.",
+    "stats": {
+      "maxHp": 3309,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 365,
+      "hpPer5s": 80,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170034"
+  },
+  {
+    "heroId": "cmqnmx4l500scqy6vhjpadgus",
+    "slug": "dr-bian",
+    "name": "Dr Bian",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Heal",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Dr Bian is a struggling Mid Mage who wants to play sustained damage. Public guides recommend a build starting with Boots of the Arcane. Watch for Yang Jian-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3325,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 365,
+      "hpPer5s": 43,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170042"
+  },
+  {
+    "heroId": "cmqnmx4lf00t3qy6vwn7s3z0f",
+    "slug": "dun",
+    "name": "Dun",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Tank/Fighter",
+    "subclasses": [
+      "Guardian Tank",
+      "Gap-Close/Crowd Control",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Roam"
+    ],
+    "summary": "Dun is a strong Clash Lane Tank who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Fortitude. Watch for Han Xin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3590,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 183,
+      "moveSpeed": 380,
+      "hpPer5s": 84,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170051"
+  },
+  {
+    "heroId": "cmqnmx4lo00tyqy6vrkmkvjli",
+    "slug": "dyadia",
+    "name": "Dyadia",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support/Mage",
+    "subclasses": [
+      "Buff Support",
+      "Team Buffs/Recovery",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Dyadia is a strong Roam Support who wants to play team buffs. Public guides recommend a build starting with Crimson Shadow - Redemption.",
+    "stats": {
+      "maxHp": 3332,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 169,
+      "moveSpeed": 365,
+      "hpPer5s": 45,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170060"
+  },
+  {
+    "heroId": "cmqnmx4lx00uvqy6v41oehb0g",
+    "slug": "erin",
+    "name": "Erin",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Deft Marksman",
+      "Sustained Damage",
+      "Mid Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Erin is a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of the Arcane. Watch for Dun-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3245,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 370,
+      "hpPer5s": 39,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170070"
+  },
+  {
+    "heroId": "cmqnmx4m600vqqy6vd7zga8vr",
+    "slug": "fang",
+    "name": "Fang",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Artillery Marksman",
+      "Gap-Close/Cleanup",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm",
+      "Jungle"
+    ],
+    "summary": "Fang is a mid-tier Farm Marksman who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Dun-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3257,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 360,
+      "hpPer5s": 37,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170078"
+  },
+  {
+    "heroId": "cmqnmx4mq00wlqy6vjymql4rt",
+    "slug": "feyd",
+    "name": "Feyd",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Feyd is a top-tier Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3335,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 380,
+      "hpPer5s": 48,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170098"
+  },
+  {
+    "heroId": "cmqnmx4mz00xiqy6vzf06ttaa",
+    "slug": "flowborn-marksman",
+    "name": "Flowborn (Marksman)",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Nimble Marksman",
+      "Sustained Damage",
+      "Late Game",
+      "Easy"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Flowborn (Marksman) are a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Resistance.",
+    "stats": {
+      "maxHp": 3250,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 360,
+      "hpPer5s": 40,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170108"
+  },
+  {
+    "heroId": "cmqnmx4n900ydqy6vyzue7uqx",
+    "slug": "fuzi",
+    "name": "Fuzi",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Gap-Close",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Fuzi is a situational Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Fortitude.",
+    "stats": {
+      "maxHp": 3432,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 176,
+      "moveSpeed": 385,
+      "hpPer5s": 51,
+      "manaPer5s": null,
+      "maxMana": 5,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170117"
+  },
+  {
+    "heroId": "cmqnmx4nf00yuqy6vf234j5f3",
+    "slug": "gan-mo",
+    "name": "Gan & Mo",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Burst/Long Range Vision",
+      "Late Game",
+      "Very Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Gan & Mo are a mid-tier Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Stone of Sorcery. Watch for Butterfly-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3251,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 370,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170123"
+  },
+  {
+    "heroId": "cmqnmx4no00znqy6vdlpftaq2",
+    "slug": "gao",
+    "name": "Gao",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Damage Reduction",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Gao is a struggling Mid Mage who wants to play sustained damage.",
+    "stats": {
+      "maxHp": 3320,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 167,
+      "moveSpeed": 370,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170132"
+  },
+  {
+    "heroId": "cmqnmx4nt0102qy6v1j4wz5vu",
+    "slug": "gao-changgong",
+    "name": "Gao Changgong",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close/Cleanup",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Gao Changgong is a strong Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3340,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 173,
+      "moveSpeed": 390,
+      "hpPer5s": 52,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170137"
+  },
+  {
+    "heroId": "cmqnmx4nz010nqy6v97cmfkgm",
+    "slug": "garo",
+    "name": "Garo",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Ranged Harass/Team Buffs",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Garo is a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Sparkforged Dagger.",
+    "stats": {
+      "maxHp": 3282,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 365,
+      "hpPer5s": 39,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170144"
+  },
+  {
+    "heroId": "cmqnmx4o8011iqy6vw05yu42r",
+    "slug": "guan-yu",
+    "name": "Guan Yu",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Initiate",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Guan Yu is a struggling Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Fortitude.",
+    "stats": {
+      "maxHp": 3547,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 176,
+      "moveSpeed": 380,
+      "hpPer5s": 53,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170152"
+  },
+  {
+    "heroId": "cmqnmx4oh012dqy6vz063yc5c",
+    "slug": "guiguzi",
+    "name": "Guiguzi",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [
+      "Offensive Support",
+      "Crowd Control",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Guiguzi is a struggling Roam Support who wants to lock down team fights with crowd control. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3394,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 365,
+      "hpPer5s": 47,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170161"
+  },
+  {
+    "heroId": "cmqnmx4on012yqy6vuqu8tymr",
+    "slug": "han-xin",
+    "name": "Han Xin",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Han Xin is a situational Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Rapacious Bite. Watch for Agudo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3232,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 180,
+      "moveSpeed": 385,
+      "hpPer5s": 47,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170167"
+  },
+  {
+    "heroId": "cmqnmx4ow013tqy6valbve169",
+    "slug": "haya",
+    "name": "Haya",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Ranged Harass",
+      "Early Game",
+      "Very Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Haya is a strong Mid Mage who wants to wear down enemies from range. Public guides recommend a build starting with Boots of the Arcane.",
+    "stats": {
+      "maxHp": 3212,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 158,
+      "moveSpeed": 360,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170176"
+  },
+  {
+    "heroId": "cmqnmx4p5014oqy6vfu0u3dka",
+    "slug": "heino",
+    "name": "Heino",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Poke/Recovery",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid",
+      "Clash Lane"
+    ],
+    "summary": "Heino is a mid-tier Mid Mage who wants to wear down enemies from range. Public guides recommend a build starting with Boots of Tranquility. Watch for Butterfly-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3313,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 365,
+      "hpPer5s": 46,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170185"
+  },
+  {
+    "heroId": "cmqnmx4pe015jqy6vkbdbbh9i",
+    "slug": "hou-yi",
+    "name": "Hou Yi",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Crowd Control/Initiate",
+      "Late Game",
+      "Easy"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Hou Yi is a top-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity. Watch for Agudo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3362,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 370,
+      "hpPer5s": 41,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170195"
+  },
+  {
+    "heroId": "cmqnmx4pm016eqy6vwth7kk0o",
+    "slug": "huang-zhong",
+    "name": "Huang Zhong",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Cleanup/Ranged Harass",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Huang Zhong is a situational Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity.",
+    "stats": {
+      "maxHp": 3318,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 365,
+      "hpPer5s": 39,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170203"
+  },
+  {
+    "heroId": "cmqnmx4pv0175qy6vq7zzvrw9",
+    "slug": "jing",
+    "name": "Jing",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Jing is a struggling Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Rapacious Bite. Watch for Angela-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3343,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 176,
+      "moveSpeed": 385,
+      "hpPer5s": 52,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170211"
+  },
+  {
+    "heroId": "cmqnmx4q30180qy6vjgwajc0v",
+    "slug": "kaizer",
+    "name": "Kaizer",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Assassin Fighter",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Kaizer is a mid-tier Clash Lane Fighter who wants to soak engage and create space. Public guides recommend a build starting with Lightfoot Shoes. Watch for Donghuang-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3476,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 178,
+      "moveSpeed": 385,
+      "hpPer5s": 44,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170220"
+  },
+  {
+    "heroId": "cmqnmx4qr018vqy6vn22uuyt7",
+    "slug": "kongming",
+    "name": "Kongming",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Ambush Mage",
+      "Burst/Cleanup",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid",
+      "Jungle"
+    ],
+    "summary": "Kongming is a strong Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Boots of the Arcane. Watch for Allain-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3300,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 162,
+      "moveSpeed": 360,
+      "hpPer5s": 46,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170243"
+  },
+  {
+    "heroId": "cmqnmx4r0019mqy6vbdbgk7na",
+    "slug": "kui",
+    "name": "Kui",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Support/Mage",
+    "subclasses": [
+      "Offensive Support",
+      "Crowd Control/Initiate",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Kui is a mid-tier Roam Support who wants to lock down team fights with crowd control. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3537,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 181,
+      "moveSpeed": 370,
+      "hpPer5s": 79,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170252"
+  },
+  {
+    "heroId": "cmqnmx4r601a1qy6vgmnc0qy6",
+    "slug": "lady-sun",
+    "name": "Lady Sun",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Artillery Marksman",
+      "Gap-Close/Cleanup",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Lady Sun is a strong Farm Marksman who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Dexterity.",
+    "stats": {
+      "maxHp": 3329,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 169,
+      "moveSpeed": 360,
+      "hpPer5s": 40,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170259"
+  },
+  {
+    "heroId": "cmqnmx4rh01awqy6vbbn99fng",
+    "slug": "lady-zhen",
+    "name": "Lady Zhen",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Control Mage",
+      "Crowd Control/Frozen",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Lady Zhen is a mid-tier Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Scepter of Reverberation. Watch for Charlotte-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3202,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 360,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170269"
+  },
+  {
+    "heroId": "cmqnmx4rq01blqy6vr5gl76h4",
+    "slug": "lam",
+    "name": "Lam",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Assassin/Fighter",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Lam is a top-tier Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Erin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3312,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 380,
+      "hpPer5s": 51,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170278"
+  },
+  {
+    "heroId": "cmqnmx4s001cgqy6vuz46ydc3",
+    "slug": "li-bai",
+    "name": "Li Bai",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close/Cleanup",
+      "Late Game",
+      "Very Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Li Bai is a situational Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Garo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3257,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 385,
+      "hpPer5s": 49,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170289"
+  },
+  {
+    "heroId": "cmqnmx4sa01dbqy6vekxad92o",
+    "slug": "li-xin",
+    "name": "Li Xin",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Gap-Close/Crowd Control",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Li Xin is a strong Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Primordial Crystal. Watch for Cai Yan-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3512,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 180,
+      "moveSpeed": 375,
+      "hpPer5s": 52,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170298"
+  },
+  {
+    "heroId": "cmqnmx4sl01eaqy6viuj0ykqp",
+    "slug": "lian-po",
+    "name": "Lian Po",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Tank",
+    "subclasses": [
+      "Vanguard Tank",
+      "Crowd Control/Initiate",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Roam"
+    ],
+    "summary": "Lian Po is a mid-tier Clash Lane Tank who wants to soak engage and create space. Public guides recommend a build starting with Lightfoot Shoes. Watch for Jing-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3675,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 198,
+      "moveSpeed": 375,
+      "hpPer5s": 78,
+      "manaPer5s": null,
+      "maxMana": 200,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170309"
+  },
+  {
+    "heroId": "cmqnmx4su01f3qy6v8mipn7fs",
+    "slug": "liang",
+    "name": "Liang",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Crowd Control Mage",
+      "Crowd Control/Initiate",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Liang is a mid-tier Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Boots of Deftness. Watch for Li Xin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3204,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 365,
+      "hpPer5s": 43,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170318"
+  },
+  {
+    "heroId": "cmqnmx4t201foqy6vkhztzpk8",
+    "slug": "liu-bang",
+    "name": "Liu Bang",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Tank/Mage",
+    "subclasses": [
+      "Guardian Tank",
+      "Support",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "summary": "Liu Bang is a struggling Roam Tank who wants to soak engage and create space. Public guides recommend a build starting with Cloth Jerkin.",
+    "stats": {
+      "maxHp": 3510,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 180,
+      "moveSpeed": 385,
+      "hpPer5s": 88,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170326"
+  },
+  {
+    "heroId": "cmqnmx4t901g7qy6v03y0ije3",
+    "slug": "liu-bei",
+    "name": "Liu Bei",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Berserker",
+      "Dash/Cleanup",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Liu Bei is a situational Jungle Fighter who wants to play dash. Public guides recommend a build starting with Relentless Blade. Watch for Dyadia-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3402,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 380,
+      "hpPer5s": 40,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170334"
+  },
+  {
+    "heroId": "cmqnmx4tk01h0qy6vm982rztz",
+    "slug": "liu-shan",
+    "name": "Liu Shan",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Support/Tank",
+    "subclasses": [
+      "Tactical Support",
+      "Push/Crowd Control",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Liu Shan is a mid-tier Roam Support who wants to soak engage and create space. Public guides recommend a build starting with Knowledge Gem. Watch for Li Bai-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3539,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 180,
+      "moveSpeed": 375,
+      "hpPer5s": 84,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170344"
+  },
+  {
+    "heroId": "cmqnmx4tq01hhqy6vawlqdmyp",
+    "slug": "lu-bu",
+    "name": "Lu Bu",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Heavy Fighter",
+      "Cleanup",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Lu Bu is a mid-tier Clash Lane Fighter who wants to soak engage and create space. Public guides recommend a build starting with Lightfoot Shoes. Watch for Han Xin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3587,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 182,
+      "moveSpeed": 380,
+      "hpPer5s": 54,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170351"
+  },
+  {
+    "heroId": "cmqnmx4tz01iaqy6v9ig76d1y",
+    "slug": "luban-no-7",
+    "name": "Luban No.7",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Ranged Harass",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Luban No.7 is a strong Farm Marksman who wants to output sustained ranged damage. Watch for Lian Po-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3366,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 174,
+      "moveSpeed": 370,
+      "hpPer5s": 42,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170359"
+  },
+  {
+    "heroId": "cmqnmx4u401ipqy6v5l8sy0ys",
+    "slug": "luna",
+    "name": "Luna",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter/Mage",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Luna is a struggling Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Runeblade. Watch for Athena-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3207,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 380,
+      "hpPer5s": 52,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170365"
+  },
+  {
+    "heroId": "cmqnmx4ue01jkqy6vnrouwv8p",
+    "slug": "mai-shiranui",
+    "name": "Mai Shiranui",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Assassin/Mage",
+    "subclasses": [
+      "Ambush Mage",
+      "Burst/Gap-Close",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Mai Shiranui is a mid-tier Mid Assassin who wants to delete priority targets in one rotation. Public guides recommend a build starting with Insatiable Tome. Watch for Alessio-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3288,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 172,
+      "moveSpeed": 385,
+      "hpPer5s": 46,
+      "manaPer5s": 50,
+      "maxMana": 200,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170374"
+  },
+  {
+    "heroId": "cmqnmx4um01kfqy6vh4qg92mq",
+    "slug": "marco-polo",
+    "name": "Marco Polo",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "Nimble Marksman",
+      "Ranged Harass",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Marco Polo is a top-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity. Watch for Lian Po-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3207,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 360,
+      "hpPer5s": 46,
+      "manaPer5s": 50,
+      "maxMana": 200,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170382"
+  },
+  {
+    "heroId": "cmqnmx4uu01laqy6vh5vh70cz",
+    "slug": "mayene",
+    "name": "Mayene",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Crowd Control",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Mayene is a situational Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Boots of Tranquility. Watch for Yaria-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3409,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 172,
+      "moveSpeed": 380,
+      "hpPer5s": 49,
+      "manaPer5s": null,
+      "maxMana": null,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170390"
+  },
+  {
+    "heroId": "cmqnmx4v301mfqy6vbma5kmii",
+    "slug": "meng-ya",
+    "name": "Meng Ya",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Marksman",
+    "subclasses": [
+      "DPS Marksman",
+      "Ranged Harass",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Meng Ya is a situational Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Boots of Dexterity. Watch for Liu Bang-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3331,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 370,
+      "hpPer5s": 40,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170399"
+  },
+  {
+    "heroId": "cmqnmx4vb01naqy6vh6xs9w13",
+    "slug": "menki",
+    "name": "Menki",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Solo/Gap-Close",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "summary": "Menki are a situational Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Axe of Torment. Watch for Ming-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3350,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 171,
+      "moveSpeed": 380,
+      "hpPer5s": 76,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170408"
+  },
+  {
+    "heroId": "cmqnmx4vi01nxqy6v567evubv",
+    "slug": "mi-yue",
+    "name": "Mi Yue",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage/Fighter",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Recovery",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Mi Yue is a strong Clash Lane Mage who wants to play sustained damage. Public guides recommend a build starting with Boots of Dexterity. Watch for tier-relevant counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3251,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 160,
+      "moveSpeed": 370,
+      "hpPer5s": 44,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170414"
+  },
+  {
+    "heroId": "cmqnmx4vo01okqy6vs8xvqs1z",
+    "slug": "milady",
+    "name": "Milady",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Pushing",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Milady is a strong Mid Mage who wants to play sustained damage. Public guides recommend a build starting with Spell Tome. Watch for Allain-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3213,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 365,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170421"
+  },
+  {
+    "heroId": "cmqnmx4vv01pbqy6vvrhf9m0t",
+    "slug": "ming",
+    "name": "Ming",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [
+      "Buff Support",
+      "Team Buffs",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Ming is a situational Roam Support who wants to protect carries through burst windows. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3330,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 365,
+      "hpPer5s": 46,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170428"
+  },
+  {
+    "heroId": "cmqnmx4w201q2qy6vhs1kkje7",
+    "slug": "mozi",
+    "name": "Mozi",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Mage/Fighter",
+    "subclasses": [
+      "Control Mage",
+      "Crowd Control/Shield",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "summary": "Mozi is a strong Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Boots of Tranquility. Watch for Dolia-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3252,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 178,
+      "moveSpeed": 370,
+      "hpPer5s": 76,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170435"
+  },
+  {
+    "heroId": "cmqnmx4wb01qlqy6vijwr25me",
+    "slug": "mulan",
+    "name": "Mulan",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Assassin",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Mulan is a struggling Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Meteor. Watch for Diaochan-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3321,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 161,
+      "moveSpeed": 380,
+      "hpPer5s": 54,
+      "manaPer5s": null,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170443"
+  },
+  {
+    "heroId": "cmqnmx4wj01rgqy6v91eh5ss3",
+    "slug": "musashi",
+    "name": "Musashi",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "summary": "Musashi is a strong Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Dyadia-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3300,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 167,
+      "moveSpeed": 385,
+      "hpPer5s": 48,
+      "manaPer5s": null,
+      "maxMana": 2,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170451"
+  },
+  {
+    "heroId": "cmqnmx4wq01sbqy6v4o7zxnaf",
+    "slug": "nakoruru",
+    "name": "Nakoruru",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Nakoruru is a situational Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Rapacious Bite. Watch for Diaochan-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3359,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 176,
+      "moveSpeed": 385,
+      "hpPer5s": 47,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170459"
+  },
+  {
+    "heroId": "cmqnmx4wy01t6qy6v0v242gz9",
+    "slug": "nezha",
+    "name": "Nezha",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Gap-Close/Damage Absorption",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane"
+    ],
+    "summary": "Nezha is a mid-tier Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Giant's Grip.",
+    "stats": {
+      "maxHp": 3406,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 380,
+      "hpPer5s": 53,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170467"
+  },
+  {
+    "heroId": "cmqnmx4x601u1qy6vqr90eesd",
+    "slug": "nuwa",
+    "name": "Nuwa",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Poke/Teleport",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Nuwa is a situational Mid Mage who wants to wear down enemies from range. Public guides recommend a build starting with Primordial Crystal. Watch for Liu Bei-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3226,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 163,
+      "moveSpeed": 360,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170474"
+  },
+  {
+    "heroId": "cmqnmx4xf01uyqy6vy1c6wjec",
+    "slug": "pei",
+    "name": "Pei",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Ranged Harass/Cleanup",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Pei is a situational Jungle Assassin who wants to wear down enemies from range. Public guides recommend a build starting with Relentless Blade. Watch for Gan & Mo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3238,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 380,
+      "hpPer5s": 45,
+      "manaPer5s": 50,
+      "maxMana": 200,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170483"
+  },
+  {
+    "heroId": "cmqnmx4xm01vrqy6vcm9eowtu",
+    "slug": "sakeer",
+    "name": "Sakeer",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Support/Mage",
+    "subclasses": [
+      "Buff Support",
+      "Crowd Control/Team Buffs",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Sakeer is a mid-tier Roam Support who wants to lock down team fights with crowd control. Public guides recommend a build starting with Crimson Shadow - Redemption. Watch for Haya-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3211,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 140,
+      "moveSpeed": 360,
+      "hpPer5s": 47,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170490"
+  },
+  {
+    "heroId": "cmqnmx4xr01waqy6vqs9nc61r",
+    "slug": "shangguan",
+    "name": "Shangguan",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage/Assassin",
+    "subclasses": [
+      "Ambush Mage",
+      "Burst/Gap-Close",
+      "Early Game",
+      "Very Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Shangguan is a situational Mid Mage who wants to delete priority targets in one rotation. Public guides recommend a build starting with Spell Tome. Watch for Augran-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3389,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 161,
+      "moveSpeed": 360,
+      "hpPer5s": 48,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170495"
+  },
+  {
+    "heroId": "cmqnmx4xz01x5qy6vwz98wm9m",
+    "slug": "shi",
+    "name": "Shi",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Control Mage",
+      "Crowd Control/Distance Increases Damage",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Shi is a mid-tier Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Boots of Deftness. Watch for Athena-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3225,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 360,
+      "hpPer5s": 43,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170503"
+  },
+  {
+    "heroId": "cmqnmx4y601y0qy6vw4yjcabw",
+    "slug": "shouyue",
+    "name": "Shouyue",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Marksman/Assassin",
+    "subclasses": [
+      "Artillery Marksman",
+      "Ranged Harass",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Farm"
+    ],
+    "summary": "Shouyue is a mid-tier Farm Marksman who wants to output sustained ranged damage. Public guides recommend a build starting with Sparkforged Dagger. Watch for Liu Bang-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3275,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 178,
+      "moveSpeed": 365,
+      "hpPer5s": 39,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170510"
+  },
+  {
+    "heroId": "cmqnmx4ye01yvqy6v5jz0qt7p",
+    "slug": "sima-yi",
+    "name": "Sima Yi",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin/Mage",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle",
+      "Mid"
+    ],
+    "summary": "Sima Yi is a struggling Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Guerrilla Machete. Watch for Alessio-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3257,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 173,
+      "moveSpeed": 375,
+      "hpPer5s": 45,
+      "manaPer5s": 10,
+      "maxMana": 80,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170518"
+  },
+  {
+    "heroId": "cmqnmx4yl01ziqy6vqm9gkzke",
+    "slug": "sun-bin",
+    "name": "Sun Bin",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Support/Mage",
+    "subclasses": [
+      "Tactical Support",
+      "Crowd Control/Team Buffs",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Sun Bin is a struggling Roam Support who wants to lock down team fights with crowd control. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3348,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 177,
+      "moveSpeed": 360,
+      "hpPer5s": 45,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170525"
+  },
+  {
+    "heroId": "cmqnmx4yr0205qy6vd674yc47",
+    "slug": "sun-ce",
+    "name": "Sun Ce",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Charger",
+      "Crowd Control/Initiate",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Sun Ce is a strong Clash Lane Fighter who wants to soak engage and create space. Public guides recommend a build starting with Meteor.",
+    "stats": {
+      "maxHp": 3504,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 380,
+      "hpPer5s": 80,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170532"
+  },
+  {
+    "heroId": "cmqnmx4yz0210qy6vnzcipza3",
+    "slug": "ukyo-tachibana",
+    "name": "Ukyo Tachibana",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin/Fighter",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Recovery",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "summary": "Ukyo Tachibana is a situational Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Hunting Knife. Watch for Di Renjie-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3250,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 385,
+      "hpPer5s": 48,
+      "manaPer5s": null,
+      "maxMana": 1050,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170539"
+  },
+  {
+    "heroId": "cmqnmx4z7021vqy6v9ev1mx5r",
+    "slug": "umbrosa",
+    "name": "Umbrosa",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Charger",
+      "Sustained Damage/Resurrect",
+      "Balanced",
+      "Easy"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Umbrosa are a mid-tier Clash Lane Fighter who wants to play sustained damage. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3415,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 375,
+      "hpPer5s": 50,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170548"
+  },
+  {
+    "heroId": "cmqnmx4zf022qqy6vuo75pgl3",
+    "slug": "wang-zhaojun",
+    "name": "Wang Zhaojun",
+    "tier": "S",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Crowd Control Mage",
+      "Crowd Control/Frozen",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Wang Zhaojun is a strong Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Guardian - Radiance.",
+    "stats": {
+      "maxHp": 3206,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 365,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170556"
+  },
+  {
+    "heroId": "cmqnmx4zn023lqy6vb5c2vlob",
+    "slug": "wukong",
+    "name": "Wukong",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Burst Assassin",
+      "Gap-Close/Crowd Control",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Wukong is a strong Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Agudo-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3334,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 173,
+      "moveSpeed": 385,
+      "hpPer5s": 50,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170563"
+  },
+  {
+    "heroId": "cmqnmx4zu024gqy6v02xyh11w",
+    "slug": "wuyan",
+    "name": "Wuyan",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Tank",
+    "subclasses": [
+      "Heavy Fighter",
+      "Crowd Control/Gap-Close",
+      "Early Game",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Wuyan is a struggling Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Lightfoot Shoes. Watch for Lam-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3582,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 178,
+      "moveSpeed": 380,
+      "hpPer5s": 48,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170571"
+  },
+  {
+    "heroId": "cmqnmx5020257qy6v0flmrthy",
+    "slug": "xiang-yu",
+    "name": "Xiang Yu",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Tank",
+    "subclasses": [
+      "Guardian Tank",
+      "Crowd Control/Tank",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "summary": "Xiang Yu is a situational Roam Tank who wants to soak engage and create space. Public guides recommend a build starting with Boots of Resistance. Watch for Han Xin-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3546,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 195,
+      "moveSpeed": 375,
+      "hpPer5s": 76,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170578"
+  },
+  {
+    "heroId": "cmqnmx508025wqy6v36bagkaf",
+    "slug": "xiao-qiao",
+    "name": "Xiao Qiao",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Poke/Group Damage",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Xiao Qiao is a strong Mid Mage who wants to wear down enemies from range. Public guides recommend a build starting with Boots of the Arcane. Watch for Liu Bei-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3200,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 163,
+      "moveSpeed": 365,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170585"
+  },
+  {
+    "heroId": "cmqnmx50h026rqy6vmjgto15z",
+    "slug": "xuance",
+    "name": "Xuance",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Xuance is a mid-tier Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Daji-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3369,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 385,
+      "hpPer5s": 51,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170593"
+  },
+  {
+    "heroId": "cmqnmx50m027cqy6vp8mjtxdn",
+    "slug": "yang-jian",
+    "name": "Yang Jian",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Cleanup",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "summary": "Yang Jian is a situational Clash Lane Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3407,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 380,
+      "hpPer5s": 51,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170599"
+  },
+  {
+    "heroId": "cmqnmx50s027xqy6vaaheft3f",
+    "slug": "yango",
+    "name": "Yango",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Assassin",
+    "subclasses": [
+      "Roving Assassin",
+      "Initiate",
+      "Balanced",
+      "Very Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Yango is a mid-tier Jungle Assassin who wants to close distance and snowball off picks. Public guides recommend a build starting with Storm Sword.",
+    "stats": {
+      "maxHp": 3001,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 375,
+      "hpPer5s": 40,
+      "manaPer5s": 14,
+      "maxMana": 560,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170605"
+  },
+  {
+    "heroId": "cmqnmx5130292qy6vsqvcwwfz",
+    "slug": "yao",
+    "name": "Yao",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Assassin",
+    "subclasses": [
+      "Assassin Fighter",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "summary": "Yao is a mid-tier Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade.",
+    "stats": {
+      "maxHp": 3304,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 163,
+      "moveSpeed": 380,
+      "hpPer5s": 49,
+      "manaPer5s": null,
+      "maxMana": 3,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170615"
+  },
+  {
+    "heroId": "cmqnmx51b02a3qy6v53rz8t1i",
+    "slug": "yaria",
+    "name": "Yaria",
+    "tier": "A",
+    "difficulty": 2,
+    "classType": "Support",
+    "subclasses": [
+      "Buff Support",
+      "Team Buffs",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Yaria is a top-tier Roam Support who wants to protect carries through burst windows. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 2793,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 165,
+      "moveSpeed": 365,
+      "hpPer5s": 36,
+      "manaPer5s": 15,
+      "maxMana": 620,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170624"
+  },
+  {
+    "heroId": "cmqnmx51i02aqqy6vfplzm7jw",
+    "slug": "ying",
+    "name": "Ying",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Fighter/Assassin",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close/Flexible",
+      "Mid Game",
+      "Hard"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Ying is a situational Jungle Fighter who wants to close distance and snowball off picks. Public guides recommend a build starting with Relentless Blade. Watch for Di Renjie-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3394,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 173,
+      "moveSpeed": 380,
+      "hpPer5s": 49,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170630"
+  },
+  {
+    "heroId": "cmqnmx51r02btqy6v6ijm65z0",
+    "slug": "yixing",
+    "name": "Yixing",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Poke/Crowd Control",
+      "Balanced",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Yixing is a strong Mid Mage who wants to lock down team fights with crowd control. Public guides recommend a build starting with Boots of the Arcane. Watch for Allain-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3253,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 173,
+      "moveSpeed": 365,
+      "hpPer5s": 45,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170640"
+  },
+  {
+    "heroId": "cmqnmx52002coqy6vi1abjzfh",
+    "slug": "yuhuan",
+    "name": "Yuhuan",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Heal",
+      "Late Game",
+      "Medium"
+    ],
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "summary": "Yuhuan is a mid-tier Mid Mage who wants to play sustained damage. Public guides recommend a build starting with Knowledge Gem. Watch for Luna-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3202,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 166,
+      "moveSpeed": 370,
+      "hpPer5s": 42,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170649"
+  },
+  {
+    "heroId": "cmqnmx52702d9qy6vmkpojh7j",
+    "slug": "zhang-fei",
+    "name": "Zhang Fei",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Support/Tank",
+    "subclasses": [
+      "Defensive Support",
+      "Crowd Control/Team Buffs",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Roam"
+    ],
+    "summary": "Zhang Fei is a situational Roam Support who wants to soak engage and create space. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3538,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 168,
+      "moveSpeed": 375,
+      "hpPer5s": 86,
+      "manaPer5s": 5,
+      "maxMana": 100,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170655"
+  },
+  {
+    "heroId": "cmqnmx52e02e2qy6vrwl8pxpo",
+    "slug": "zhou-yu",
+    "name": "Zhou Yu",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Formation Mage",
+      "Sustained Damage/Pushing",
+      "Early Game",
+      "Hard"
+    ],
+    "roles": [
+      "Mid"
+    ],
+    "summary": "Zhou Yu is a situational Mid Mage who wants to play sustained damage. Public guides recommend a build starting with Boots of the Arcane. Watch for Augran-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3278,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 170,
+      "moveSpeed": 365,
+      "hpPer5s": 44,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170663"
+  },
+  {
+    "heroId": "cmqnmx52j02ejqy6vgbjvjugv",
+    "slug": "zhuangzi",
+    "name": "Zhuangzi",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Support/Tank",
+    "subclasses": [
+      "Defensive Support",
+      "Team Buffs",
+      "Late Game",
+      "Easy"
+    ],
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "summary": "Zhuangzi is a mid-tier Roam Support who wants to soak engage and create space. Public guides recommend a build starting with Knowledge Gem.",
+    "stats": {
+      "maxHp": 3504,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 174,
+      "moveSpeed": 380,
+      "hpPer5s": 78,
+      "manaPer5s": 15,
+      "maxMana": 600,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170668"
+  },
+  {
+    "heroId": "cmqnmx52p02f4qy6v3qlbk8wb",
+    "slug": "zilong",
+    "name": "Zilong",
+    "tier": "C",
+    "difficulty": 2,
+    "classType": "Fighter/Assassin",
+    "subclasses": [
+      "Assassin Fighter",
+      "Gap-Close",
+      "Balanced",
+      "Medium"
+    ],
+    "roles": [
+      "Jungle"
+    ],
+    "summary": "Zilong is a C-tier Jungle Fighter/Assassin in Honor of Kings. Specialty: Gap-Close.",
+    "stats": {
+      "maxHp": 3468,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 175,
+      "moveSpeed": 385,
+      "hpPer5s": 50,
+      "manaPer5s": 14,
+      "maxMana": 580,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170674"
+  },
+  {
+    "heroId": "cmqnmx52w02fpqy6vy2bpjilv",
+    "slug": "ziya",
+    "name": "Ziya",
+    "tier": "B",
+    "difficulty": 2,
+    "classType": "Mage",
+    "subclasses": [
+      "Artillery Mage",
+      "Poke/Team Buffs",
+      "Late Game",
+      "Hard"
+    ],
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "summary": "Ziya is a mid-tier Mid Mage who wants to wear down enemies from range. Public guides recommend a build starting with Stone of Sorcery. Watch for Biron-style counters in the enemy draft.",
+    "stats": {
+      "maxHp": 3222,
+      "physDef": 150,
+      "magDef": 75,
+      "physAtk": 172,
+      "moveSpeed": 370,
+      "hpPer5s": 42,
+      "manaPer5s": 16,
+      "maxMana": 640,
+      "attackSpeed": null
+    },
+    "patchAdded": "",
+    "lastUpdated": "1782037170680"
+  }
+]

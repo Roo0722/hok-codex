@@ -1,6 +1,6 @@
 "use client";
 
-export type TabKey = "items" | "skills" | "arcana" | "patches";
+export type TabKey = "heroes" | "items" | "arcana" | "patches";
 
 interface TabNavProps {
   active: TabKey;
@@ -9,8 +9,8 @@ interface TabNavProps {
 }
 
 const tabs: { key: TabKey; label: string }[] = [
+  { key: "heroes", label: "Heroes" },
   { key: "items", label: "Items" },
-  { key: "skills", label: "Skills" },
   { key: "arcana", label: "Arcana" },
   { key: "patches", label: "Patches" },
 ];

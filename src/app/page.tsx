@@ -2,21 +2,23 @@
 
 import { useMemo, useState } from "react";
 import { TabNav, TabKey } from "@/components/TabNav";
+import { HeroCard } from "@/components/HeroCard";
+import { HeroDetailModal } from "@/components/HeroDetailModal";
 import { ItemCard } from "@/components/ItemCard";
 import { ItemDetailModal } from "@/components/ItemDetailModal";
 import { ArcanaCard } from "@/components/ArcanaCard";
-import { SkillCard } from "@/components/SkillCard";
 import { PatchTab } from "@/components/PatchTab";
+import { heroes, type Hero } from "@/data/heroes";
 import { items, type Item } from "@/data/items";
-import { skills } from "@/data/skills";
 import { arcana } from "@/data/arcana";
 import { getPublishedPatches, getPendingPatches } from "@/data/patches";
 import { Search } from "lucide-react";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<TabKey>("items");
+  const [activeTab, setActiveTab] = useState<TabKey>("heroes");
   const [query, setQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
+  const [selectedHero, setSelectedHero] = useState<Hero | null>(null);
 
   const publishedPatches = useMemo(() => getPublishedPatches(), []);
   const pendingPatches = useMemo(() => getPendingPatches(), []);
@@ -27,17 +29,12 @@ export default function Home() {
     return new Set(latest.structuredChanges.map((c) => c.entityId));
   }, [publishedPatches]);
 
-  const filteredItems = useMemo(
-    () => items.filter((i) => i.name.toLowerCase().includes(query.toLowerCase())),
+  const filteredHeroes = useMemo(
+    () => heroes.filter((h) => h.name.toLowerCase().includes(query.toLowerCase())),
     [query]
   );
-  const filteredSkills = useMemo(
-    () =>
-      skills.filter(
-        (s) =>
-          s.name.toLowerCase().includes(query.toLowerCase()) ||
-          s.heroName.toLowerCase().includes(query.toLowerCase())
-      ),
+  const filteredItems = useMemo(
+    () => items.filter((i) => i.name.toLowerCase().includes(query.toLowerCase())),
     [query]
   );
   const filteredArcana = useMemo(
@@ -49,7 +46,7 @@ export default function Home() {
     <main className="min-h-screen pb-6">
       <header className="p-4 border-b border-[#C2924C]/10">
         <h1 className="text-lg font-semibold text-[#E7C285]">HoK Codex</h1>
-        <p className="text-xs text-[#808080]">Items, skills, arcana — always current</p>
+        <p className="text-xs text-[#808080]">Heroes, items, arcana — always current</p>
       </header>
 
       <TabNav
@@ -75,6 +72,22 @@ export default function Home() {
         </div>
       )}
 
+      {activeTab === "heroes" && (
+        <div className="grid grid-cols-1 gap-2 px-3">
+          {filteredHeroes.map((hero) => (
+            <HeroCard
+              key={hero.heroId}
+              hero={hero}
+              changedRecently={recentlyChangedIds.has(hero.slug)}
+              onClick={setSelectedHero}
+            />
+          ))}
+          {filteredHeroes.length === 0 && (
+            <p className="text-sm text-[#808080] text-center py-8">No heroes found.</p>
+          )}
+        </div>
+      )}
+
       {activeTab === "items" && (
         <div className="grid grid-cols-1 gap-2 px-3">
           {filteredItems.map((item) => (
@@ -87,21 +100,6 @@ export default function Home() {
           ))}
           {filteredItems.length === 0 && (
             <p className="text-sm text-[#808080] text-center py-8">No items found.</p>
-          )}
-        </div>
-      )}
-
-      {activeTab === "skills" && (
-        <div className="grid grid-cols-1 gap-2 px-3">
-          {filteredSkills.map((skill) => (
-            <SkillCard
-              key={skill.skillId}
-              skill={skill}
-              changedRecently={recentlyChangedIds.has(skill.skillId)}
-            />
-          ))}
-          {filteredSkills.length === 0 && (
-            <p className="text-sm text-[#808080] text-center py-8">No skills found.</p>
           )}
         </div>
       )}
@@ -125,6 +123,7 @@ export default function Home() {
         <PatchTab publishedPatches={publishedPatches} pendingPatches={pendingPatches} />
       )}
 
+      <HeroDetailModal hero={selectedHero} onClose={() => setSelectedHero(null)} />
       <ItemDetailModal item={selectedItem} onClose={() => setSelectedItem(null)} />
     </main>
   );
