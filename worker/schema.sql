@@ -54,5 +54,22 @@ CREATE TABLE IF NOT EXISTS patches (
   discovered_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS hero_rankings (
+  hero_name TEXT PRIMARY KEY,
+  tier TEXT,
+  role TEXT,
+  win_rate TEXT,
+  pick_rate TEXT,
+  ban_rate TEXT,
+  confidence TEXT NOT NULL DEFAULT 'low',
+  source_urls TEXT NOT NULL DEFAULT '[]',
+  last_updated TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ranking_meta (
+  id TEXT PRIMARY KEY,
+  last_checked_at TEXT NOT NULL
+);
+
 CREATE INDEX IF NOT EXISTS idx_patches_status ON patches(status);
 CREATE INDEX IF NOT EXISTS idx_patches_release_date ON patches(release_date);

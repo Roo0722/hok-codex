@@ -4,6 +4,7 @@ import {
   structurePatchWithAI,
   validateStructuredPatch,
 } from "./patch-fetcher";
+import { runRankingsCheck } from "./rankings-fetcher";
 
 async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?: string }> {
   const searchBundles = await searchForLatestPatch(env);
@@ -121,6 +122,17 @@ export default {
       return withCors(Response.json(results.results));
     }
 
+    if (url.pathname === "/api/rankings" && request.method === "GET") {
+      const results = await env.DB.prepare("SELECT * FROM hero_rankings ORDER BY tier ASC").all();
+      return withCors(Response.json(results.results));
+    }
+
+    if (url.pathname === "/api/rankings/check" && request.method === "POST") {
+      const force = url.searchParams.get("force") === "true";
+      const result = await runRankingsCheck(env, force);
+      return withCors(Response.json(result));
+    }
+
     if (url.pathname === "/api/patches/check" && request.method === "POST") {
       const result = await runPatchCheck(env);
       return withCors(Response.json(result));
@@ -139,6 +151,11 @@ export default {
     const result = await runPatchCheck(env);
     if (result.status === "new_patch_detected") {
       console.log(`New patch detected: ${result.patchVersion}, pending review`);
+    }
+
+    const rankingResult = await runRankingsCheck(env);
+    if (rankingResult.status === "updated") {
+      console.log(`Rankings updated: ${rankingResult.count} heroes`);
     }
   },
 };
