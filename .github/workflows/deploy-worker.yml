@@ -54,18 +54,18 @@ jobs:
       - name: Test patches/check endpoint end-to-end
         run: |
           sleep 5
-          curl -s -X POST https://hok-codex-worker.jnjnbnd.workers.dev/api/patches/check -w "\nHTTP_STATUS:%{http_code}\n" > worker/patch-check-test-output.txt 2>&1 || true
+          curl -s --max-time 60 -X POST https://hok-codex-worker.jnjnbnd.workers.dev/api/patches/check -w "\nHTTP_STATUS:%{http_code}\n" > worker/patch-check-test-output.txt 2>&1 || true
           cat worker/patch-check-test-output.txt
 
       - name: Test rankings/check endpoint end-to-end
         run: |
-          curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/rankings/check?force=true" -w "\nHTTP_STATUS:%{http_code}\n" > worker/rankings-check-test-output.txt 2>&1 || true
+          curl -s --max-time 60 -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/rankings/check" -w "\nHTTP_STATUS:%{http_code}\n" > worker/rankings-check-test-output.txt 2>&1 || true
           cat worker/rankings-check-test-output.txt
 
       - name: Test admin analyze endpoint end-to-end
         working-directory: worker
         run: |
-          curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/admin/analyze" \
+          curl -s --max-time 60 -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/admin/analyze" \
             -H "Content-Type: application/json" \
             -H "X-Admin-Password: p@ssword!" \
             --data-binary @test-payload.json \
@@ -74,7 +74,7 @@ jobs:
 
       - name: Verify patches list reflects the change
         run: |
-          curl -s "https://hok-codex-worker.jnjnbnd.workers.dev/api/patches" > worker/verify-patches-output.txt 2>&1 || true
+          curl -s --max-time 30 "https://hok-codex-worker.jnjnbnd.workers.dev/api/patches" > worker/verify-patches-output.txt 2>&1 || true
           python3 -c "import json; data = json.load(open('worker/verify-patches-output.txt')); [print(json.dumps(p, indent=2)) for p in data if p.get('release_date') == '2026-07-02']"
 
       - name: Remove duplicate July 2 entries from repeated test runs
