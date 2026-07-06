@@ -33,6 +33,12 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: echo "${{ secrets.AI_API_KEY }}" | npx wrangler secret put AI_API_KEY
 
+      - name: Update Worker ADMIN_PASSWORD secret
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: echo "${{ secrets.ADMIN_PASSWORD }}" | npx wrangler secret put ADMIN_PASSWORD
+
       - name: Deploy Worker and capture output
         working-directory: worker
         env:

@@ -6,6 +6,7 @@ import {
 } from "./patch-fetcher";
 import { runRankingsCheck } from "./rankings-fetcher";
 import { isAuthorized, analyzeManualInput, confirmManualPatch } from "./admin";
+import { ADMIN_PAGE_HTML } from "./admin-page";
 
 async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?: string }> {
   const searchBundles = await searchForLatestPatch(env);
@@ -99,6 +100,10 @@ export default {
 
     if (request.method === "OPTIONS") {
       return withCors(new Response(null, { status: 204 }));
+    }
+
+    if (url.pathname === "/admin") {
+      return new Response(ADMIN_PAGE_HTML, { headers: { "Content-Type": "text/html;charset=UTF-8" } });
     }
 
     if (url.pathname === "/api/admin/analyze" && request.method === "POST") {
