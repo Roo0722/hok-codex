@@ -26,6 +26,28 @@ export async function fetchLiveRankings(): Promise<RemoteRanking[]> {
   }
   return res.json();
 }
+export interface RemoteBuildItem {
+  id: string;
+  name: string;
+}
+
+export interface RemoteBuild {
+  buildId: string;
+  heroName: string;
+  buildName: string;
+  badge: string | null;
+  description: string | null;
+  items: (RemoteBuildItem | null)[];
+  position: number;
+}
+
+export async function fetchBuildsForHero(heroName: string): Promise<RemoteBuild[]> {
+  const res = await fetch(`${WORKER_BASE_URL}/api/builds?hero=${encodeURIComponent(heroName)}`);
+  if (!res.ok) {
+    throw new Error(`Fetch builds failed: ${res.status}`);
+  }
+  return res.json();
+}
 export interface RemotePatch {
   patch_id: string;
   patch_version: string;
