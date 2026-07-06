@@ -22,6 +22,7 @@ export interface Env {
   TAVILY_API_KEY: string;
   AI_API_KEY: string;
   AI_API_URL: string;
+  ADMIN_PASSWORD: string;
 }
 
 export interface SearchResult {

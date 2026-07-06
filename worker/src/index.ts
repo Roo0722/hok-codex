@@ -5,6 +5,7 @@ import {
   validateStructuredPatch,
 } from "./patch-fetcher";
 import { runRankingsCheck } from "./rankings-fetcher";
+import { isAuthorized, analyzeManualInput, confirmManualPatch } from "./admin";
 
 async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?: string }> {
   const searchBundles = await searchForLatestPatch(env);
@@ -98,6 +99,27 @@ export default {
 
     if (request.method === "OPTIONS") {
       return withCors(new Response(null, { status: 204 }));
+    }
+
+    if (url.pathname === "/api/admin/analyze" && request.method === "POST") {
+      if (!isAuthorized(request, env)) {
+        return withCors(Response.json({ error: "Unauthorized" }, { status: 401 }));
+      }
+      const body = (await request.json().catch(() => ({}))) as { url?: string; text?: string };
+      const result = await analyzeManualInput(env, body);
+      return withCors(Response.json(result));
+    }
+
+    if (url.pathname === "/api/admin/confirm" && request.method === "POST") {
+      if (!isAuthorized(request, env)) {
+        return withCors(Response.json({ error: "Unauthorized" }, { status: 401 }));
+      }
+      const body = await request.json().catch(() => null);
+      if (!body) {
+        return withCors(Response.json({ error: "Invalid patch payload" }, { status: 400 }));
+      }
+      const result = await confirmManualPatch(env, body as Parameters<typeof confirmManualPatch>[1]);
+      return withCors(Response.json(result));
     }
 
     if (url.pathname === "/api/patches" && request.method === "GET") {
