@@ -72,6 +72,20 @@ jobs:
             -w "\nHTTP_STATUS:%{http_code}\n" > admin-test-output.txt 2>&1 || true
           cat admin-test-output.txt
 
+      - name: Replace placeholder July 2 patch with real detailed data
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npx wrangler d1 execute hok-codex-db --remote --file=./delete-old-july02.sql > delete-july02-output.txt 2>&1 || true
+          curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/admin/confirm" \
+            -H "Content-Type: application/json" \
+            -H "X-Admin-Password: p@ssword!" \
+            --data-binary @confirm-payload.json \
+            -w "\nHTTP_STATUS:%{http_code}\n" > confirm-july02-output.txt 2>&1 || true
+          cat delete-july02-output.txt
+          cat confirm-july02-output.txt
+
       - name: Commit deploy output back to repo
         working-directory: worker
         run: |
