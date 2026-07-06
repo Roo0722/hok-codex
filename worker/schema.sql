@@ -71,5 +71,19 @@ CREATE TABLE IF NOT EXISTS ranking_meta (
   last_checked_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS hero_builds (
+  build_id TEXT PRIMARY KEY,
+  hero_name TEXT NOT NULL,
+  build_name TEXT NOT NULL,
+  badge TEXT,
+  description TEXT,
+  items TEXT NOT NULL DEFAULT '[]',
+  position INTEGER NOT NULL DEFAULT 0,
+  source TEXT,
+  last_updated TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_hero_builds_hero ON hero_builds(hero_name);
+
 CREATE INDEX IF NOT EXISTS idx_patches_status ON patches(status);
 CREATE INDEX IF NOT EXISTS idx_patches_release_date ON patches(release_date);

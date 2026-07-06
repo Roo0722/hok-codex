@@ -6,6 +6,7 @@ import {
 } from "./patch-fetcher";
 import { runRankingsCheck } from "./rankings-fetcher";
 import { isAuthorized, analyzeManualInput, confirmManualPatch } from "./admin";
+import { listBuilds, saveBuild, deleteBuild } from "./builds";
 import { ADMIN_PAGE_HTML } from "./admin-page";
 
 async function runPatchCheck(env: Env): Promise<{ status: string; patchVersion?: string }> {
@@ -104,6 +105,36 @@ export default {
 
     if (url.pathname === "/admin") {
       return new Response(ADMIN_PAGE_HTML, { headers: { "Content-Type": "text/html;charset=UTF-8" } });
+    }
+
+    if (url.pathname === "/api/builds" && request.method === "GET") {
+      const heroName = url.searchParams.get("hero") || undefined;
+      const results = await listBuilds(env, heroName);
+      return withCors(Response.json(results));
+    }
+
+    if (url.pathname === "/api/admin/builds" && request.method === "POST") {
+      if (!isAuthorized(request, env)) {
+        return withCors(Response.json({ error: "Unauthorized" }, { status: 401 }));
+      }
+      const body = await request.json().catch(() => null);
+      if (!body) {
+        return withCors(Response.json({ error: "Invalid build payload" }, { status: 400 }));
+      }
+      const result = await saveBuild(env, body as Parameters<typeof saveBuild>[1]);
+      return withCors(Response.json(result));
+    }
+
+    if (url.pathname === "/api/admin/builds" && request.method === "DELETE") {
+      if (!isAuthorized(request, env)) {
+        return withCors(Response.json({ error: "Unauthorized" }, { status: 401 }));
+      }
+      const buildId = url.searchParams.get("id");
+      if (!buildId) {
+        return withCors(Response.json({ error: "Missing build id" }, { status: 400 }));
+      }
+      const result = await deleteBuild(env, buildId);
+      return withCors(Response.json(result));
     }
 
     if (url.pathname === "/api/admin/analyze" && request.method === "POST") {
