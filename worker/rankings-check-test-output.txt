@@ -1,2 +1,2 @@
-{"error":"SyntaxError: Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at async callStructuringAI (index.js:77:16)\n    at async runRankingsCheck (index.js:242:18)\n    at async Object.fetch (index.js:660:24)"}
-HTTP_STATUS:500
+{"status":"updated","count":109}
+HTTP_STATUS:200
