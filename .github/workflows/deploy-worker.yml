@@ -63,13 +63,14 @@ jobs:
           cat worker/rankings-check-test-output.txt
 
       - name: Test admin analyze endpoint end-to-end
+        working-directory: worker
         run: |
           curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/admin/analyze" \
             -H "Content-Type: application/json" \
             -H "X-Admin-Password: p@ssword!" \
-            -d '{"text":"Patch S99 released 2026-07-06: Ata skill damage adjusted from 100 to 120."}' \
-            -w "\nHTTP_STATUS:%{http_code}\n" > worker/admin-test-output.txt 2>&1 || true
-          cat worker/admin-test-output.txt
+            --data-binary @test-payload.json \
+            -w "\nHTTP_STATUS:%{http_code}\n" > admin-test-output.txt 2>&1 || true
+          cat admin-test-output.txt
 
       - name: Commit deploy output back to repo
         working-directory: worker
