@@ -1,2 +1,2 @@
-{"status":"no_usable_data"}
+{"status":"updated","count":109}
 HTTP_STATUS:200
