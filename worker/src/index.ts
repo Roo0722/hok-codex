@@ -110,7 +110,7 @@ export default {
       if (!isAuthorized(request, env)) {
         return withCors(Response.json({ error: "Unauthorized" }, { status: 401 }));
       }
-      const body = (await request.json().catch(() => ({}))) as { url?: string; text?: string };
+      const body = (await request.json().catch(() => ({}))) as { url?: string; text?: string; versionHint?: string };
       const result = await analyzeManualInput(env, body);
       return withCors(Response.json(result));
     }

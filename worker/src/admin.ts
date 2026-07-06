@@ -15,13 +15,14 @@ const MANUAL_SYSTEM_PROMPT = `You extract structured patch-note data for Honor o
 
 Strict rules:
 - Only reference hero, item, or arcana names that appear in the provided known-entity list. If a name doesn't match, omit that change rather than guessing.
-- Do not invent values. If a detail isn't clearly stated in the text, leave the field as an empty string.
+- Do not invent numeric values. If a detail isn't clearly stated in the text, leave the field as an empty string.
 - Output ONLY valid JSON, no markdown formatting, no commentary.
-- If you cannot identify a patch version or release date from the text, respond with {"patchVersion": null}.`;
+- The text may not contain an explicit version label like "S15". If so, use the update/release date in the text (e.g. "2026-07-02") as the patchVersion instead of leaving it blank. A dated server update announcement is still a valid patch even without an "S" number.
+- Only respond with {"patchVersion": null} if the text contains no identifiable update date AND no hero/item/arcana changes at all — i.e. it is not about a game update.`;
 
 export async function analyzeManualInput(
   env: Env,
-  input: { url?: string; text?: string }
+  input: { url?: string; text?: string; versionHint?: string }
 ): Promise<{ preview: StructuredPatch | null; fetchedContent?: string; error?: string }> {
   let content = input.text || "";
 
@@ -47,9 +48,13 @@ export async function analyzeManualInput(
   }
 
   const known = await getKnownEntityNames(env);
+  const versionLine = input.versionHint
+    ? `The patch version for this content is definitely: "${input.versionHint}". Use this exact value for patchVersion — do not guess a different one.`
+    : "";
   const userContent = `Known heroes: ${known.heroes.join(", ")}
 Known items: ${known.items.join(", ")}
 Known arcana: ${known.arcana.join(", ")}
+${versionLine}
 
 Content to analyze:
 ${content}
@@ -72,11 +77,21 @@ Return JSON matching exactly:
 }`;
 
   const parsed = await callStructuringAI(env, MANUAL_SYSTEM_PROMPT, userContent);
-  if (!parsed || typeof parsed !== "object" || !("patchVersion" in parsed) || !parsed.patchVersion) {
-    return { preview: null, error: "AI could not identify a patch from this content.", fetchedContent: content.slice(0, 2000) };
+
+  // If a human explicitly gave us a version, trust it over an AI null-out —
+  // the admin providing this field is a stronger signal than the AI's guess.
+  if ((!parsed || typeof parsed !== "object" || !("patchVersion" in parsed) || !parsed.patchVersion) && !input.versionHint) {
+    return { preview: null, error: "AI could not identify a patch from this content. Try filling in the season/version field above.", fetchedContent: content.slice(0, 2000) };
   }
 
-  const result = parsed as StructuredPatch;
+  const result = (parsed && typeof parsed === "object" ? parsed : {}) as StructuredPatch;
+  if (input.versionHint) {
+    result.patchVersion = input.versionHint;
+    result.releaseDate = result.releaseDate || "";
+    result.rawSummary = result.rawSummary || content.slice(0, 300);
+    result.structuredChanges = result.structuredChanges || [];
+  }
+
   const allKnown = [...known.heroes, ...known.items, ...known.arcana];
   result.structuredChanges = (result.structuredChanges || [])
     .map((change) => {

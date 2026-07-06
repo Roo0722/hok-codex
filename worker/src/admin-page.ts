@@ -36,6 +36,8 @@ export const ADMIN_PAGE_HTML = `<!DOCTYPE html>
 <div id="app">
   <h1>Patch Admin</h1>
   <div class="card">
+    <label>Patch version / season (e.g. S15) — optional but recommended</label>
+    <input type="text" id="version" placeholder="S15">
     <label>Source URL (optional)</label>
     <input type="text" id="url" placeholder="https://...">
     <label>Or paste text directly (optional)</label>
@@ -67,6 +69,7 @@ export const ADMIN_PAGE_HTML = `<!DOCTYPE html>
   }
 
   async function analyze() {
+    const version = document.getElementById("version").value.trim();
     const url = document.getElementById("url").value.trim();
     const text = document.getElementById("text").value.trim();
     document.getElementById("err").textContent = "";
@@ -78,7 +81,7 @@ export const ADMIN_PAGE_HTML = `<!DOCTYPE html>
       const res = await fetch(WORKER_BASE + "/api/admin/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json", "X-Admin-Password": password },
-        body: JSON.stringify({ url: url || undefined, text: text || undefined })
+        body: JSON.stringify({ url: url || undefined, text: text || undefined, versionHint: version || undefined })
       });
       const data = await res.json();
       if (res.status === 401) {
