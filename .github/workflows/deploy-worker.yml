@@ -91,11 +91,17 @@ jobs:
           curl -s "https://hok-codex-worker.jnjnbnd.workers.dev/api/patches" > worker/verify-patches-output.txt 2>&1 || true
           python3 -c "import json; data = json.load(open('worker/verify-patches-output.txt')); [print(json.dumps(p, indent=2)) for p in data if p.get('release_date') == '2026-07-02']"
 
+      - name: Remove duplicate July 2 entries from repeated test runs
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx wrangler d1 execute hok-codex-db --remote --file=./dedupe-july02.sql > dedupe-output.txt 2>&1 || true; cat dedupe-output.txt
+
       - name: Commit deploy output back to repo
         working-directory: worker
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt rankings-check-test-output.txt admin-test-output.txt delete-july02-output.txt confirm-july02-output.txt verify-patches-output.txt
+          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt rankings-check-test-output.txt admin-test-output.txt delete-july02-output.txt confirm-july02-output.txt verify-patches-output.txt dedupe-output.txt
           git commit -m "Worker deploy output [skip ci]" || echo "Nothing to commit"
           git push
