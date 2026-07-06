@@ -22,6 +22,7 @@ export default function Home() {
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [selectedHero, setSelectedHero] = useState<Hero | null>(null);
   const [rankings, setRankings] = useState<Record<string, RemoteRanking>>({});
+  const [sortByRanking, setSortByRanking] = useState(false);
 
   useEffect(() => {
     fetchLiveRankings()
@@ -44,10 +45,17 @@ export default function Home() {
     return new Set(latest.structuredChanges.map((c) => c.entityId));
   }, [publishedPatches]);
 
-  const filteredHeroes = useMemo(
-    () => heroes.filter((h) => h.name.toLowerCase().includes(query.toLowerCase())),
-    [query]
-  );
+  const tierOrder: Record<string, number> = { "S+": 0, S: 1, A: 2, B: 3, C: 4 };
+
+  const filteredHeroes = useMemo(() => {
+    const base = heroes.filter((h) => h.name.toLowerCase().includes(query.toLowerCase()));
+    if (!sortByRanking) return base;
+    return [...base].sort((a, b) => {
+      const tierA = rankings[a.name]?.tier || a.tier;
+      const tierB = rankings[b.name]?.tier || b.tier;
+      return (tierOrder[tierA] ?? 99) - (tierOrder[tierB] ?? 99);
+    });
+  }, [query, sortByRanking, rankings]);
   const filteredItems = useMemo(
     () => items.filter((i) => i.name.toLowerCase().includes(query.toLowerCase())),
     [query]
@@ -84,6 +92,21 @@ export default function Home() {
               className="w-full bg-[#1A1A1A] border border-[#C2924C]/10 rounded-lg py-2 pl-9 pr-3 text-sm text-[#F0F0F0] placeholder-[#666666] outline-none focus:border-[#C2924C]/40"
             />
           </div>
+        </div>
+      )}
+
+      {activeTab === "heroes" && (
+        <div className="px-3 pb-2 flex justify-end">
+          <button
+            onClick={() => setSortByRanking((v) => !v)}
+            className={`text-xs px-3 py-1.5 rounded-full border ${
+              sortByRanking
+                ? "bg-[#C2924C]/20 border-[#C2924C]/50 text-[#E7C285]"
+                : "border-[#C2924C]/20 text-[#808080]"
+            }`}
+          >
+            Sort by ranking
+          </button>
         </div>
       )}
 
