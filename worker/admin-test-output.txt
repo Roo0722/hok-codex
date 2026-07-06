@@ -1,0 +1,2 @@
+{"preview":{"patchVersion":"S99","releaseDate":"2026-07-06","rawSummary":"Patch S99 was released on 2026-07-06 with adjustments to Ata's skill damage.","structuredChanges":[{"entityType":"hero","entityId":"Ata","entityName":"Ata","fieldChanged":"skill damage","oldValue":"100","newValue":"120"}]}}
+HTTP_STATUS:200
