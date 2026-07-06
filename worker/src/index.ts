@@ -165,6 +165,13 @@ export default {
       return withCors(Response.json(results.results));
     }
 
+    if (url.pathname === "/api/heroes" && request.method === "GET") {
+      const results = await env.DB.prepare(
+        "SELECT DISTINCT hero_name FROM skills ORDER BY hero_name ASC"
+      ).all();
+      return withCors(Response.json(results.results.map((r) => String(r.hero_name))));
+    }
+
     if (url.pathname === "/api/items" && request.method === "GET") {
       const results = await env.DB.prepare("SELECT * FROM items").all();
       return withCors(Response.json(results.results));
