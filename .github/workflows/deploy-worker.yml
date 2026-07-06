@@ -62,11 +62,20 @@ jobs:
           curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/rankings/check?force=true" -w "\nHTTP_STATUS:%{http_code}\n" > worker/rankings-check-test-output.txt 2>&1 || true
           cat worker/rankings-check-test-output.txt
 
+      - name: Test admin analyze endpoint end-to-end
+        run: |
+          curl -s -X POST "https://hok-codex-worker.jnjnbnd.workers.dev/api/admin/analyze" \
+            -H "Content-Type: application/json" \
+            -H "X-Admin-Password: p@ssword!" \
+            -d '{"text":"Patch S99 released 2026-07-06: Ata skill damage adjusted from 100 to 120."}' \
+            -w "\nHTTP_STATUS:%{http_code}\n" > worker/admin-test-output.txt 2>&1 || true
+          cat worker/admin-test-output.txt
+
       - name: Commit deploy output back to repo
         working-directory: worker
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt rankings-check-test-output.txt
+          git add deploy-output.txt secret-list-output.txt patch-check-test-output.txt rankings-check-test-output.txt admin-test-output.txt
           git commit -m "Worker deploy output [skip ci]" || echo "Nothing to commit"
           git push
