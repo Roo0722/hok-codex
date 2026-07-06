@@ -17,39 +17,37 @@
 Note: if the execution fails to complete, your DB will return to its original state and you can safely retry.
 ├ Checking if file needs uploading
 │
-├ 🌀 Uploading a9c68163-013f-43e7-bcf8-87efd6b4ce6e.978ffb2aee238748.sql
-│ 🌀 Uploading complete.
-│
+🌀 File already uploaded. Processing.
 🌀 Starting import...
 🌀 Processed 817 queries.
-🚣 Executed 817 queries in 95.22ms (0 rows read, 2451 rows written)
-   Database is currently at bookmark 0000003b-000000f5-000050a0-209b26d7148200fdc8747bdf6e995627.
+🚣 Executed 817 queries in 118.36ms (817 rows read, 2451 rows written)
+   Database is currently at bookmark 0000003c-00000107-000050a0-145b566d1aaf6cb727c25ef6a75b7335.
 [
   {
     "results": [
       {
         "Total queries executed": 817,
-        "Rows read": 0,
+        "Rows read": 817,
         "Rows written": 2451,
         "Database size (MB)": "1.00"
       }
     ],
     "success": true,
-    "finalBookmark": "0000003b-000000f5-000050a0-209b26d7148200fdc8747bdf6e995627",
+    "finalBookmark": "0000003c-00000107-000050a0-145b566d1aaf6cb727c25ef6a75b7335",
     "meta": {
       "served_by": "v3-prod",
       "served_by_region": "WNAM",
       "served_by_colo": "DFW",
       "served_by_primary": true,
       "timings": {
-        "sql_duration_ms": 95.2154
+        "sql_duration_ms": 118.3576
       },
-      "duration": 95.2154,
+      "duration": 118.3576,
       "changes": 818,
-      "last_row_id": 817,
+      "last_row_id": 1634,
       "changed_db": true,
-      "size_after": 995328,
-      "rows_read": 0,
+      "size_after": 1003520,
+      "rows_read": 817,
       "rows_written": 2451,
       "num_tables": 7,
       "total_attempts": 1

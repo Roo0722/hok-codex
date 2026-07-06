@@ -17,38 +17,40 @@
 Note: if the execution fails to complete, your DB will return to its original state and you can safely retry.
 ├ Checking if file needs uploading
 │
-🌀 File already uploaded. Processing.
+├ 🌀 Uploading a9c68163-013f-43e7-bcf8-87efd6b4ce6e.cdc389f1d068e576.sql
+│ 🌀 Uploading complete.
+│
 🌀 Starting import...
-🌀 Processed 10 queries.
-🚣 Executed 10 queries in 3.09ms (0 rows read, 0 rows written)
-   Database is currently at bookmark 0000003c-00000004-000050a0-290fb30863539d0d363dc0f76591829f.
+🌀 Processed 2 queries.
+🚣 Executed 2 queries in 6.90ms (214 rows read, 57 rows written)
+   Database is currently at bookmark 0000003c-0000010b-000050a0-3daa2985c3a7e6d7f1ccab9dd998eaec.
 [
   {
     "results": [
       {
-        "Total queries executed": 10,
-        "Rows read": 0,
-        "Rows written": 0,
+        "Total queries executed": 2,
+        "Rows read": 214,
+        "Rows written": 57,
         "Database size (MB)": "1.00"
       }
     ],
     "success": true,
-    "finalBookmark": "0000003c-00000004-000050a0-290fb30863539d0d363dc0f76591829f",
+    "finalBookmark": "0000003c-0000010b-000050a0-3daa2985c3a7e6d7f1ccab9dd998eaec",
     "meta": {
       "served_by": "v3-prod",
       "served_by_region": "WNAM",
       "served_by_colo": "DFW",
       "served_by_primary": true,
       "timings": {
-        "sql_duration_ms": 3.0917
+        "sql_duration_ms": 6.9004
       },
-      "duration": 3.0917,
-      "changes": 1,
-      "last_row_id": 0,
+      "duration": 6.9004,
+      "changes": 58,
+      "last_row_id": 1634,
       "changed_db": true,
-      "size_after": 995328,
-      "rows_read": 0,
-      "rows_written": 0,
+      "size_after": 1003520,
+      "rows_read": 214,
+      "rows_written": 57,
       "num_tables": 7,
       "total_attempts": 1
     }
