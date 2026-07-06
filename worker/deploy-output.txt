@@ -18,8 +18,8 @@ Your worker has access to the following bindings:
 - Vars:
   - ENVIRONMENT: "production"
   - AI_API_URL: "https://openrouter.ai/api/v1/chat/com..."
-Uploaded hok-codex-worker (2.30 sec)
-Deployed hok-codex-worker triggers (0.58 sec)
+Uploaded hok-codex-worker (1.13 sec)
+Deployed hok-codex-worker triggers (0.27 sec)
   https://hok-codex-worker.jnjnbnd.workers.dev
   schedule: 0 */12 * * *
-Current Version ID: 7e1644cc-e8bc-4663-a556-d1614fd0f9dd
+Current Version ID: 9182cc65-203f-4395-ae0e-6c1baca0cf94
