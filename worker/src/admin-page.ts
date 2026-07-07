@@ -333,7 +333,7 @@ export const ADMIN_PAGE_HTML = `<!DOCTYPE html>
       const s = slots[i];
       const div = document.createElement("div");
       div.className = "slot" + (s ? " filled" : "");
-      div.textContent = s ? s.name : "Empty";
+      div.textContent = s ? s.name : String(i + 1);
       div.onclick = (function(idx) { return function() { onSlotClick(idx); }; })(i);
       if (s) {
         const x = document.createElement("span");
